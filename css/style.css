@@ -1586,7 +1586,7 @@ body{
 	}
 	.inner-target a{
 		display: inline-block;
-		margin-top: 66px;
+		margin-top: 80px;
 		border-radius:10px;
 		text-decoration:none;
 		color:#fff;
@@ -1599,8 +1599,11 @@ body{
 		background-color: #444;
 	}
 /*======== НАВИГАЦИОННАЯ ПАНЕЛЬ===============*/
-	.navbar{
-		display: none;
+	div.navbar{
+		overflow: hidden;
+		height: 78px;
+		width: 100%;
+		background-color: #d82132;
 	}
 	.fixed {
 		 margin-top:0px;
@@ -1612,49 +1615,43 @@ body{
 		 background-color:#bd1d2c !important;
 		 font: 300 16px/24px "Roboto", sans-serif;
 	}
-	.navbar-2{
-		position:relative;
-		height: 78px;
-		width: 100%;
-		background-color:#d82132;
-	}
-	.navbar-2 ul li{
-		display: inline-block;
-	}
-	.first-item{
-		height: 78px;
-		width: 40%;
-		padding-left: 18%;
-		margin-right: 7%;
+
+	div.first-nv{
+		float: left;
 		background-color:#bd1d2c;
 		border-radius: 0 40px 40px 0;
+		padding-left: 18%;
+		height: 100%;
+		width: 40%;
 	}
-	.first-item img{
-		display: block;
+	div.first-nv img{
 		float: left;
-		margin-top: 19px;
-		margin-left: 10%;
-		margin-right: 5%;
+		padding-top: 18px;
+		padding-left: 5%;
 	}
-	.first-item a{
+	div.first-nv h3 a{
 		display: block;
-		margin-top: 25px;
+		padding-top: 27px;
+		padding-left: 20%;
 		text-decoration: none;
 		color: #fff;
 	}
-	.first-item a:hover{
-		color: #444;
+	div.navbar ul li{
+		float: left;
+		width: 10%;
+		padding-top: 27px;
+		text-align: left;
+		list-style: none;
 	}
-	.bar{
-		text-align: right;
-		display: block;
-		margin-left: 1%;
+	#kos{
+		text-align: center;
 	}
-	.bar a{
+	div.navbar ul li a{
+		padding-left: 0%;
 		text-decoration: none;
 		color: #fff;
 	}
-	.bar a:hover{
+	div.navbar ul li a:hover{
 		color: #444;
 	}
 /*=============================== О Нас=============*/
@@ -1742,12 +1739,29 @@ body{
 	}
 /*==================  СЧАСТЛИВЫЕ ИСТОРИИИ   ===============================*/
 	.bonus-su{
-		margin-bottom: 55%;
+		overflow:hidden;
 	}
 	.item-success{
 		float: left;
 		width: 30%;
 		margin-left: 3%;
+	}
+	.item-success h3{
+		text-align: right;
+		display: block;
+		border-radius:10px;
+		width: 100%;
+		height: 50px;
+		padding:13px 10px 0 0;
+		color:#fff;
+		background-color: #d82132;
+	}
+	.item-success h4{
+		text-align: center;
+		text-decoration: underline;
+		padding-right: 10px;
+		font-weight: normal;
+		font-style: italic;
 	}
 	.item-success img {
 		display: block;
@@ -1756,34 +1770,6 @@ body{
 		height: auto;
 		width: 100%;
 
-	}
-	.s-date{
-		position: relative;
-		text-align: center;
-		height: 40px;
-		width: 100%;
-		background-color: #666 !important;
-	}
-	.s-date h5{
-		float: left;
-		display: block;
-		height: 100%;
-		width: 50%;	
-		left: 0;
-		padding-top: 6px;
-		background-color: #d82132;
-		border-radius: 0 50px 50px 0;
-		color: #fff;
-		font-size:70%;
-	}
-	.s-date h6{
-		float: left;
-		display: block;
-		height: 100%;
-		width: 50%;
-		margin-right: 0;
-		padding-top: 6px;
-		font-size:60%;
 	}
 	.item-success p{
 		height: 100%;
@@ -1805,21 +1791,20 @@ body{
 		width: 100%;
 		text-align: right;
 		padding: 2%;
-		padding-top: 10%;
 	}
 /*==================КОНТАКТЫ==========================*/
 	.contact{
 		float: left;
 		background:rgba(216, 33, 50, 0.3);
-		padding-left: 13%;
 		width: 100%;
 		height: 100%;
+		padding: 0 15% 0 15%;
 	}
 	.contact-item-block{
 		float: left;
 		height:100%;
 		width:25%;
-		padding: 10% 0 10% 10%;
+		padding: 10% 0 10% 0;
 		text-align:center;
 	}
 	.contacts-items{
@@ -1845,18 +1830,24 @@ body{
 	.footer{
 		position: static;
 		clear: both;
-		height: 72px;
+		height: auto;
 		width: 100%;
 		background-color: #d82132;
 		text-align: center;
 		color: #fff;
 	}
-	.footer h5{
-
+	.footer a {
 		display: block;
+		width: 30%;
+		padding-top: 20px;
+		margin: auto;
+		color: #fff;
+	}
+
+	.footer h5{
 		text-align: center;
 		margin: auto;
 		width: 30%;
-		padding-top: 25px;
+		padding: 25px 0 10px 0;
 	}
 }
