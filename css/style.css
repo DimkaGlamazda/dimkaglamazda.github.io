@@ -23,7 +23,7 @@ body{
 
 @media (max-width: 480px) {
 	body{
-		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat fixed center top;
+		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat fixed center bottom;
 	}
 
 	.container{
@@ -355,6 +355,7 @@ body{
 		color: #fff;
 	}
 	.footer a{
+		text-decoration: none;
 		color: #fff;
 	} 
 	.footer h5{
@@ -709,6 +710,7 @@ body{
 	}
 	.footer a{
 		padding-top: 10px;
+		text-decoration: none;
 		color: #fff;
 	}
 	.footer h5{
@@ -1060,6 +1062,7 @@ body{
 	}
 	.footer a{
 		display: block;
+		text-decoration: none;
 		padding-top: 10px;
 		color: #fff;
 	}
@@ -1449,6 +1452,7 @@ body{
 		width: 30%;
 		padding-top: 20px;
 		margin: auto;
+		text-decoration: none;
 		color: #fff;
 	}
 
@@ -1577,7 +1581,7 @@ body{
 		width: 100%;
 		text-align: center;
 		line-height: 100%;
-		padding-top: 60px;
+		padding: 60px 30px 10px 30px;
 		text-transform: uppercase;
 	}
 	.inner-target h2{
@@ -1838,6 +1842,7 @@ body{
 	}
 	.footer a {
 		display: block;
+		text-decoration: none;
 		width: 30%;
 		padding-top: 20px;
 		margin: auto;
