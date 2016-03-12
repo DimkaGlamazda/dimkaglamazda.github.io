@@ -104,21 +104,27 @@ body{
 	.inner-target h1{
 		display: inline-block;
 		line-height: 100%;
-		padding-top: 55px;
+		font-size: 50px;
+		padding: 50px 30px 0px 30px;
 	}
 	.inner-target h2{
-		padding-top:25px;
+		font-size: 30px;
+		padding-top:20px;
+		font-weight:normal;
 	}
 	.inner-target a{
 		display: inline-block;
-		margin-top: 40px;
-		border-radius:10px;
+		margin-top: 30px;
+		border-radius:20px;
 		text-decoration:none;
+		font-size: 15px;
 		color:#fff;
-		padding-top: 4px;
+		padding-top: 7px;
 		height:35px;
-		width:190px;
+		width:150px;
 		background-color:#d82132;
+		font-weight:bold;
+		text-transform:uppercase;
 	}
 	.inner-target a:hover{
 		background-color: #444;
@@ -470,23 +476,26 @@ body{
 	.inner-target h1{
 		display: inline-block;
 		line-height: 100%;
-		padding: 60px 30px 10px 30px;
-		text-transform: uppercase;
+		font-size: 85px;
+		padding: 70px 30px 0px 30px;
 	}
 	.inner-target h2{
-		padding-top:55px;
-		text-transform: uppercase;
+		font-size: 35px;
+		padding-top:20px;
+		font-weight:normal;
 	}
 	.inner-target a{
 		display: inline-block;
-		margin-top: 66px;
-		border-radius:10px;
+		margin-top: 30px;
+		border-radius:20px;
 		text-decoration:none;
 		color:#fff;
-		padding-top: 9px;
-		height:41px;
-		width:180px;
+		padding-top: 13px;
+		height:50px;
+		width:200px;
 		background-color:#d82132;
+		font-weight:bold;
+		text-transform:uppercase;
 	}
 	.inner-target a:hover{
 		background-color: #444;
@@ -823,23 +832,26 @@ body{
 	.inner-target h1{
 		display: inline-block;
 		line-height: 100%;
-		padding: 60px 30px 10px 30px;
-		text-transform: uppercase;
+		font-size: 85px;
+		padding: 70px 30px 0px 30px;
 	}
 	.inner-target h2{
-		padding-top:55px;
-		text-transform: uppercase;
+		font-size: 35px;
+		padding-top:20px;
+		font-weight:normal;
 	}
 	.inner-target a{
 		display: inline-block;
-		margin-top: 66px;
-		border-radius:10px;
+		margin-top: 30px;
+		border-radius:20px;
 		text-decoration:none;
 		color:#fff;
-		padding-top: 9px;
-		height:41px;
-		width:180px;
+		padding-top: 13px;
+		height:50px;
+		width:200px;
 		background-color:#d82132;
+		font-weight:bold;
+		text-transform:uppercase;
 	}
 	.inner-target a:hover{
 		background-color: #444;
@@ -1182,30 +1194,32 @@ body{
 		left: 50%;
 		margin-top: -197px;
 		margin-left: -198px;
-		font-size: 20px;
 		background-color: rgba(255, 255, 255, 0.5);
 		border-radius: 100%;
 	}
 	.inner-target h1{
 		display: inline-block;
 		line-height: 100%;
-		padding: 60px 30px 10px 30px;
-		text-transform: uppercase;
+		font-size: 85px;
+		padding: 70px 30px 0px 30px;
 	}
 	.inner-target h2{
-		padding-top:55px;
-		text-transform: uppercase;
+		font-size: 35px;
+		padding-top:20px;
+		font-weight:normal;
 	}
 	.inner-target a{
 		display: inline-block;
-		margin-top: 66px;
-		border-radius:10px;
+		margin-top: 30px;
+		border-radius:20px;
 		text-decoration:none;
 		color:#fff;
-		padding-top: 9px;
-		height:41px;
-		width:180px;
+		padding-top: 13px;
+		height:50px;
+		width:200px;
 		background-color:#d82132;
+		font-weight:bold;
+		text-transform:uppercase;
 	}
 	.inner-target a:hover{
 		background-color: #444;
@@ -1579,26 +1593,28 @@ body{
 		border-radius: 100%;
 	}
 	.inner-target h1{
-		width: 100%;
-		text-align: center;
+		display: inline-block;
 		line-height: 100%;
-		padding: 60px 30px 10px 30px;
-		text-transform: uppercase;
+		font-size: 85px;
+		padding: 70px 30px 0px 30px;
 	}
 	.inner-target h2{
-		padding-top:55px;
-		text-transform: uppercase;
+		font-size: 35px;
+		padding-top:20px;
+		font-weight:normal;
 	}
 	.inner-target a{
 		display: inline-block;
-		margin-top: 80px;
-		border-radius:10px;
+		margin-top: 30px;
+		border-radius:20px;
 		text-decoration:none;
 		color:#fff;
-		padding-top: 9px;
-		height:41px;
-		width:180px;
+		padding-top: 13px;
+		height:50px;
+		width:200px;
 		background-color:#d82132;
+		font-weight:bold;
+		text-transform:uppercase;
 	}
 	.inner-target a:hover{
 		background-color: #444;
