@@ -277,7 +277,7 @@ body{
 		display: block;
 		text-align: center;
 		border-radius:10px;
-		width: 70%;
+		width: auto;
 		height: 50px;
 		margin: auto;
 		margin-bottom: 10px;
@@ -287,7 +287,7 @@ body{
 	}
 	.item-success h4{
 		text-align: center;
-		text-decoration: underline;
+		border-bottom: 1px solid #444;
 		padding-right: 10px;
 		font-weight: normal;
 		font-style: italic;
@@ -638,7 +638,7 @@ body{
 	}
 	.item-success h4{
 		text-align: center;
-		text-decoration: underline;
+		border-bottom: 1px solid #444;
 		padding-right: 10px;
 		font-weight: normal;
 		font-style: italic;
@@ -988,7 +988,7 @@ body{
 	}
 	.item-success h4{
 		text-align: center;
-		text-decoration: underline;
+		border-bottom: 1px solid #444;
 		padding-right: 10px;
 		font-weight: normal;
 		font-style: italic;
@@ -1367,7 +1367,7 @@ body{
 	}
 	.item-success h4{
 		text-align: center;
-		text-decoration: underline;
+		border-bottom: 1px solid #444;
 		padding-right: 10px;
 		font-weight: normal;
 		font-style: italic;
@@ -1574,7 +1574,8 @@ body{
 		border-radius: 100%;
 	}
 	.inner-target h1{
-		display: inline-block;
+		width: 100%;
+		text-align: center;
 		line-height: 100%;
 		padding-top: 60px;
 		text-transform: uppercase;
@@ -1757,7 +1758,7 @@ body{
 	}
 	.item-success h4{
 		text-align: center;
-		text-decoration: underline;
+		border-bottom: 1px solid #444;
 		padding-right: 10px;
 		font-weight: normal;
 		font-style: italic;
