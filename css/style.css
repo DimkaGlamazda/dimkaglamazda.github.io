@@ -23,7 +23,7 @@ body{
 
 @media (max-width: 480px) {
 	body{
-		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat fixed center;
+		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat fixed center top;
 		-webkit-background-size: auto;
 		background-size: auto;
 	}
