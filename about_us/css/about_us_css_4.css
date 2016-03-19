@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 300 16px/24px 'Roboto', sans-serif;
+	color: #000;
+}
+div.container{
+	height: 100%;
+	width: 70%;
+	margin: auto;
+}
+div.conteiner-white{
+	height: 100%;
+	width: 100%;
+	background-color: #fff !important;
+}
+div.container-pink{
+	height: 100%;
+	width: 100%;
+	background-color: #d82132;
+}
+div.box-head{
+	width: 100%;
+	height: auto;
+	line-height:200%;
+	padding: 3%;
+	padding-top: 5%;
+	text-align: center;
+}
+div.navbar{
+	background-color:#d82132;
+	height: 78px;
+	width: 100%;
+	}
+ul.nav-bar-f-item{
+	float: left;
+	display: inline-block;
+	border-radius: 0 40px 40px 0;
+	list-style: none;
+	height: 78px;
+	width: 30%;
+	padding-left: 15%;
+	background-color:#bd1d2c;
+}
+li.first-nv{
+	margin-left: 1%;
+}
+li.first-nv img{
+	float: left;
+	margin-top: 16px;
+	width: 34px;
+}
+li.first-nv a{
+	float: left;
+	width: auto;
+	text-align: center;
+	padding: 25px 0 0 10px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #fff;
+}
+li.first-nv a:hover{
+	color:#444;
+}
+ul.nav-bar-s-item{
+	width: 50%;
+	float: left;
+	padding-top: 28px;
+}
+div.navbar ul li.nav-item{
+	display: inline-block;
+	margin-left: 8%;
+}
+div.navbar ul li.nav-item a{
+	display: block;
+	text-decoration: none;
+	color:#fff;
+}
+div.navbar ul li.nav-item a:hover{
+	color: #444;
+}
+.fixed {
+	 margin-top:0px;
+	 position: fixed !important;
+	 top: 0px; 
+	 z-index: 9999; 
+	 height:78px;
+	 width:100%;
+	 background-color:#bd1d2c !important;
+	 font: 300 16px/24px "Roboto", sans-serif;
+}
+/*======================== ABOUT US======================*/
+div.box-head h1{
+	text-decoration:uppercase;
+}
+div.item_about_us{
+	padding-bottom: 20px;
+}
+div.item_about_us h2{
+	padding-bottom: 15px;
+}
