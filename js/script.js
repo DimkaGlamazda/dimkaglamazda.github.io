@@ -4,13 +4,13 @@
 $(document).ready(function() {
   
   $("#owl-demo").owlCarousel({
-	  autoPlay : 7000,//Скорость стояния слайда
+     
+	    autoPlay : 7000,//Скорость стояния слайда
       navigation : 1000, // Show next and prev buttons
       slideSpeed : false,
-      paginationSpeed : 1000,//Скорость прокрутки слайда
-	  singleItem:true,
-	  pagination:false //ТОчки внизу
-	 
+      paginationSpeed : 100,//Скорость прокрутки слайда
+	    singleItem:true,
+	    pagination:false, //ТОчки внизу*/
  
       // "singleItem:true" is a shortcut for:
       // items : 1, 
