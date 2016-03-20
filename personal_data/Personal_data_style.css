@@ -6,6 +6,16 @@ body{
 	font: 300 16px/24px 'Roboto', sans-serif;
 	color: #000;
 }
+.fixed {
+	 margin-top:0px;
+	 position: fixed !important;
+	 top: 0px; 
+	 z-index: 9999; 
+	 height:78px;
+	 width:100%;
+	 background-color:#bd1d2c !important;
+	 font: 300 16px/24px "Roboto", sans-serif;
+}
 div.navbar{
 	background-color:#d82132;
 	height: 78px;
@@ -33,8 +43,8 @@ li.first-nv a{
 	float: left;
 	width: auto;
 	text-align: center;
-	padding: 25px 0 0 10px;
-	font-size: 19px;
+	padding: 26px 0 0 10px;
+	font-size: 26px;
 	text-decoration: none;
 	color: #fff;
 }
@@ -99,5 +109,5 @@ div.low-text p{
 	text-align: center;
 	margin: auto;
 	font-size: 17px;
-	width: 30%;
+	width: 100%;
 }
