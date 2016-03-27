@@ -1,0 +1,216 @@
+@media (min-width: 770px) and (max-width: 1024px){
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font: 300 16px/24px 'Roboto', sans-serif;
+		color: #000;
+	}
+/*===============================================================
+		container
+================================================================*/
+	div.container{
+		overflow: hidden;
+		height: auto;
+		width: 80%;
+		margin: auto;
+		padding: 20px 0 20px 0;
+	}
+	div.conteiner-white{
+		height: 100%;
+		width: 100%;
+		background-color: #fff !important;
+	}
+	div.container-pink{
+		height: 100%;
+		width: 100%;
+		background-color: #d82132;
+	}
+	div.box-head{
+		width: 100%;
+		line-height:200%;
+		padding: 10px 0 30px 0;
+		text-align: center;
+	}
+
+/*=================================================================
+			NavBar
+===============================================================*/
+	.fixed {
+		 margin-top:0px;
+		 position: fixed !important;
+		 top: 0px; 
+		 z-index: 9999; 
+		 height:78px;
+		 width:100%;
+		 background-color:#bd1d2c !important;
+		 font: 300 16px/24px "Roboto", sans-serif;
+	}
+	div.navbar{
+		background-color:#d82132;
+		height: 78px;
+		width: 100%;
+	}
+	ul.naw-bar-items{
+		list-style: none;
+
+	}
+	ul.naw-bar-items a{
+		color: #fff;
+		text-decoration: none;
+	}
+	ul.naw-bar-items a:hover{
+		color: #444;
+		text-decoration: none;
+	}
+	ul.naw-bar-items ul{
+		float: left;
+		list-style: none;
+	}
+	ul.nav-bar-tm{
+		width: 46%; height: 78px;
+		border-radius: 0 40px 40px 0;
+		background-color: #bd1d2c;
+	}
+	ul.nav-bar-tm li{
+		float: left;
+		width: 50%;
+	}
+	ul.nav-bar-tm li img{
+		padding: 18px 0 0 20%;
+	}
+	ul.nav-bar-tm li a{
+		display: block;
+		width: 275px;
+		font-size:20px;
+		margin: 0 0 0 -100px;
+		padding-top: 26px;
+	}
+	ul.nav-bar-item-links{
+		float: left;
+		width: 54%;
+	}
+	ul.nav-bar-item-links li{
+		float: left;
+		width: -4%;
+		padding: 28px 0 0 8%;
+	}
+/*======================== ABOUT US================================*/
+	
+	div.item_about_us{
+		padding: 0 10px 20px 10px;
+		text-align: justify;
+	}
+	div.item_about_us h2{
+		padding-bottom: 15px;
+		text-align: center;
+	}
+/*===================== Kiew office ==============================*/
+	div.container-pink div.box-head h1{
+		color:#fff;
+	}
+	div.container-pink div.box-head h3{
+		color: #fff;
+		font-style: italic;
+		font-weight: normal;
+	}
+	div.contacts_kiev h4{
+		color: #fff;
+	}
+	div.contacts_kiev{
+		margin: 30px 0 20px 10px;
+	}
+	div.contacts_kiev a{
+		color:#fff;
+	}
+/*==================================================================
+		Японский офис
+==================================================================*/
+	div.j-contact{
+		width: 50%;
+		float: left;
+		text-align: center;
+	}
+	div.j-contact img{
+		margin: 40px 0 0 0;
+		width: 100%;
+	}
+	img#j-img{
+		float: left;
+		margin: 0 0 0 5%;
+		width: 45%;
+	}
+	#map_canvas{
+		clear:both;
+		
+		width: 100%;
+	}
+	iframe{
+		margin: 37px 0 10px 0;
+	}
+/*=================================================================
+		Контактная информация
+================================================================*/
+	input.input_cust_data{
+		float: left;
+		border-radius: 7px;
+		width: 31%; height: 30px;
+		font-size: 25px;
+		margin: auto;
+		margin:0 0 20px 1%;
+	}
+	textarea#area_masage{
+		display: block;
+		resize: none;
+		border-radius: 7px;
+		font-size: 19px;
+		width: 96%; height: 200px;
+		margin-left: 1%;
+	}
+	a#btn_submit{
+		display: block;
+		margin: auto;
+		margin-top: 30px;
+		text-align: center;
+		border: 1px solid #fff;
+		border-radius:20px;
+		color:#fff;
+		padding-top: 9px;
+		height:30px; width:200px;
+		background-color:#d82132;
+		font-weight:bold;
+		text-decoration: none;
+		text-transform:uppercase;
+	}
+	a#btn_submit:hover{
+		background-color: #bd1d2c;
+	}
+/*==============================================================
+		Футер
+===============================================================*/
+	.footer{
+		width: 100%;
+		background-color: #d82132;
+		text-align: center;
+		color: #fff;
+		padding: 13px 0 0 0;
+	}
+	.footer a {
+		width: 30%;
+		margin: auto;
+		text-decoration: none;
+		font-size: 13px;
+		color: #fff;
+	}
+	.footer a:hover{
+		color: #444;
+	}
+	.footer h5{
+		text-align: center;
+		margin: auto;
+		font-size: 17px;
+		width: 100%;
+	}
+	
+}

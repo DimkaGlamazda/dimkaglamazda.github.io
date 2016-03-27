@@ -1,0 +1,183 @@
+@media (max-width: 480px) {
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font: 300 16px/24px 'Roboto', sans-serif;
+		color: #000;
+	}
+/*===============================================================
+		container
+================================================================*/
+	div.container{
+		overflow: hidden;
+		height: auto;
+		width: 100%;
+		padding: 20px 0 20px 0;
+	}
+	div.conteiner-white{
+		height: 100%;
+		width: 100%;
+		background-color: #fff !important;
+	}
+	div.container-pink{
+		height: 100%;
+		width: 100%;
+		background-color: #d82132;
+	}
+	div.box-head{
+		width: 100%;
+		line-height:200%;
+		padding: 10px 0 30px 0;
+		text-align: center;
+	}
+
+/*=================================================================
+			NavBar
+===============================================================*/
+	div.navbar{
+		background-color:#d82132;
+		height: 250px;
+		width: 100%;
+	}
+	ul.naw-bar-items{
+		width: 100%;
+		text-align: center;
+	}
+	ul.naw-bar-items a{
+		text-decoration: none;
+		color: #fff;
+	}
+	ul.nav-bar-tm{
+		background-color: #bd1d2c;
+		padding: 10px 0 15px 0;
+		font-size:20px;
+	}
+	ul.nav-bar-item-links a{
+		display: block;
+		padding: 1px 0 0 0;
+		border: 1px solid #fff;
+		margin: 10px;
+	}
+	ul.nav-bar-item-links a:hover{
+		border: 1px solid #bd1d2c;
+		background-color: #bd1d2c;
+	}
+	
+/*======================== ABOUT US================================*/
+	
+	div.item_about_us{
+		padding: 0 10px 20px 10px;
+		text-align: justify;
+	}
+	div.item_about_us h2{
+		padding-bottom: 15px;
+		text-align: center;
+	}
+/*===================== Kiew office ==============================*/
+	div.container-pink div.box-head h1{
+		color:#fff;
+	}
+	div.container-pink div.box-head h3{
+		color: #fff;
+		font-style: italic;
+		font-weight: normal;
+	}
+	div.contacts_kiev h4{
+		color: #fff;
+	}
+	div.contacts_kiev{
+		margin: 30px 0 20px 10px;
+	}
+	div.contacts_kiev a{
+		color:#fff;
+	}
+/*==================================================================
+		Японский офис
+==================================================================*/
+	div.j-contact{
+		width: 100%;
+		text-align: center;
+	}
+	div.j-contact img{
+		margin: 40px 0 0 0;
+		width: 100%;
+	}
+	img#j-img{
+		float: left;
+		width: 100%;
+	}
+	#map_canvas{
+		clear:both;
+		
+		width: 100%;
+	}
+	iframe{
+		margin: 37px 0 10px 0;
+	}
+/*=================================================================
+		Контактная информация
+================================================================*/
+	input.input_cust_data{
+		display: block;
+		border-radius: 7px;
+		width: 80%; height: 30px;
+		font-size: 25px;
+		margin: auto;
+		margin-bottom: 10px;
+	}
+	textarea#area_masage{
+		display: block;
+		resize: none;
+		border-radius: 7px;
+		font-size: 19px;
+		width: 82%; height: 200px;
+		margin: auto;
+	}
+	a#btn_submit{
+		display: block;
+		margin: auto;
+		margin-top: 30px;
+		text-align: center;
+		border: 1px solid #fff;
+		border-radius:20px;
+		color:#fff;
+		padding-top: 9px;
+		height:30px; width:200px;
+		background-color:#d82132;
+		font-weight:bold;
+		text-decoration: none;
+		text-transform:uppercase;
+	}
+	a#btn_submit:hover{
+		background-color: #bd1d2c;
+	}
+/*==============================================================
+		Футер
+===============================================================*/
+	.footer{
+		width: 100%;
+		background-color: #d82132;
+		text-align: center;
+		color: #fff;
+		padding: 13px 0 0 0;
+	}
+	.footer a {
+		width: 30%;
+		margin: auto;
+		text-decoration: none;
+		font-size: 13px;
+		color: #fff;
+	}
+	.footer a:hover{
+		color: #444;
+	}
+	.footer h5{
+		text-align: center;
+		margin: auto;
+		font-size: 17px;
+		width: 100%;
+	}
+	
+}
