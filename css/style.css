@@ -24,7 +24,7 @@ body{
 @media (max-width: 480px) {
 /*================ default==============================================*/
 	body{
-		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat fixed center top;
+		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat fixed center bottom;
 		-webkit-background-size: auto;
 		background-size: auto;
 	}
@@ -46,9 +46,9 @@ body{
 	}
 	.carousel_picture_1{
 		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat;
+		background-size: cover;
 		width: 100%;
 		display: block;
-		background-size: cover;
 		opacity:0.4; -moz-opacity:0.4;
 		filter:alpha(opacity=40);
 	}
@@ -1559,7 +1559,7 @@ body{
 	.container{
 		float: none;
 		height: 100%;
-		width: 60%;
+		width: 50%;
 		margin: auto;
 	}
 	.box-head{
@@ -1764,6 +1764,7 @@ body{
 		text-align: left;
 		margin-bottom: 1%;
 		font-size:30px;
+		line-height: 41px; 
 		font-weight:normal;
 	}
 	.item-text{
@@ -1772,9 +1773,6 @@ body{
 		padding-top: 5%;
 		padding-bottom: 10%;
 		text-align: justify;
-	}
-	.item-text p{
-		font-size:20px;
 	}
 /*=================================How it work==================================*/
 	.color-pink{
