@@ -1773,6 +1773,9 @@ body{
 		padding-bottom: 10%;
 		text-align: justify;
 	}
+	.item-text p{
+		font-size:20px;
+	}
 /*=================================How it work==================================*/
 	.color-pink{
 		color:#fff !important;
