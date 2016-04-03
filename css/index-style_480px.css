@@ -1,0 +1,364 @@
+@media (max-width: 480px) {
+/*========================= стандарные ==============================*/
+	*{
+		margin: 0;
+		padding: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		transition: all .2s;
+	}
+	body{
+		font: 300 16px/24px 'Roboto', sans-serif;
+		color: #000;
+		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat fixed center bottom;
+		-webkit-background-size: auto;
+		background-size: auto;
+	}
+	.conteiner-white{
+		height: 100%;
+		width: 100%;
+		background-color: #fff !important;
+	}
+	.container-pink{
+		height: 100%;
+		width: 100%;
+		background-color: #d82132;
+	}
+	.container{
+		height: 100%;
+		width: 100%;
+		padding-bottom: 5%;
+	}
+/*========================= карусель ================================*/
+	#owl-demo{
+		width:100%;
+		height:500px;
+		background:#444;
+	}
+	.owl-theme{
+		margin:0;
+		padding:0;
+	}
+	.carousel_picture_1{
+		background:url("../picture/smartfon/carousel_1_768_1269.jpg") no-repeat;
+		background-size: cover;
+		width: 100%;
+		display: block;
+		opacity:0.4; -moz-opacity:0.4;
+		filter:alpha(opacity=40);
+	}
+
+	.carousel_picture_2{
+		background:url("../picture/smartfon/carousel_2_768_1289.jpg")no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: auto;
+		display: block;
+		opacity:0.4; -moz-opacity:0.4;
+		filter:alpha(opacity=40);
+	}
+
+	.carousel_picture_3{
+		background:url("../picture/smartfon/carousel_3_768_1289.jpg")no-repeat;
+		background-size: cover;
+		display: block;
+		opacity:0.4; -moz-opacity:0.4;
+		filter:alpha(opacity=40);
+	}
+	.item{
+		height:500px;
+		width:100%;
+		margin:0 auto;
+		padding:0 auto;
+	}
+/*========================= цель ====================================*/
+	.target{
+		position:absolute;
+		text-align: center;
+		width: 320px;
+		height: 320px;
+		top: 10%;
+		left: 50%;
+		margin-left: -160px;
+		border-radius: 100%;
+		border:1px solid;
+		border-color: rgba(255, 255, 255, 0.5);
+		color: #fff;
+	}
+	.inner-target{
+		position:absolute;
+		width: 300px;
+		height: 300px;
+		top:50%;
+		left: 50%;
+		margin-top: -150px;
+		margin-left: -150px;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 100%;
+	}
+	.inner-target h1{
+		display: inline-block;
+		line-height: 100%;
+		font-size: 50px;
+		padding: 50px 30px 0px 30px;
+	}
+	.inner-target h2{
+		font-size: 30px;
+		padding-top:20px;
+		font-weight:normal;
+	}
+	.inner-target a{
+		display: inline-block;
+		margin-top: 30px;
+		border-radius:20px;
+		text-decoration:none;
+		font-size: 15px;
+		color:#fff;
+		padding-top: 7px;
+		height:35px;
+		width:150px;
+		background-color:#d82132;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	.inner-target a:hover{
+		background-color: #444;
+	}
+/*========================= нав-панель ==============================*/
+	div.navbar{
+		background-color:#d82132;
+		height: 250px;
+		width: 100%;
+	}
+	ul.naw-bar-items{
+		width: 100%;
+		text-align: center;
+	}
+	ul.naw-bar-items a{
+		text-decoration: none;
+		color: #fff;
+	}
+	ul.nav-bar-tm{
+		background-color: #bd1d2c;
+		padding: 10px 0 5px 0;
+		font-size:20px;
+	}
+	ul.nav-bar-item-links a{
+		display: block;
+		padding: 1px 0 0 0;
+		border: 1px solid #fff;
+		margin: 10px;
+	}
+	ul.nav-bar-item-links a:hover{
+		border: 1px solid #bd1d2c;
+		background-color: #bd1d2c;
+	}
+/*========================= о нас ===================================*/
+		.box-head{
+			width: 100%;
+			height: auto;
+			line-height:200%;
+			padding: 3%;
+			padding-top: 10%;
+			text-align: center;
+		}
+		.box-body{
+			width: 95%;
+			margin: auto;
+			height: auto;
+		}
+		.item-us img{
+
+			width: 80%;
+			height: auto;
+			margin: 10%;
+		}
+		.item-text h3{
+			text-align: center;
+			margin-bottom: 0;
+
+		}
+		.item-text{
+			width: 100%;
+			height: auto;
+			padding-bottom: 10%;
+			text-align: justify;
+		}
+/*========================= как это работает ========================*/
+	.color-pink{
+		color:#fff !important;
+	}
+	.how-it-work-item{
+
+		text-align: center;
+		width: 50%;
+		height: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		margin:auto;
+	}
+	#icon_1{
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		background: transparent url("../picture/index_img04.png") no-repeat scroll 0px 0px;
+	}
+	#icon_1:hover{
+		background-position: 0px -78px;
+	}
+	#icon_2{
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		background: transparent url("../picture/index_img05.png") no-repeat scroll 0px 0px;
+	}
+	#icon_2:hover{
+		background-position: 0px -78px;
+	}
+	#icon_3{
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		background: transparent url("../picture/index_img06.png") no-repeat scroll 0px 0px;
+	}
+	#icon_3:hover{
+		background-position: 0px -78px;
+	}
+	#icon_4{
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		background: transparent url("../picture/index_img07.png") no-repeat scroll 0px 0px;
+	}
+	#icon_4:hover{
+		background-position: 0px -78px;
+	}
+	.how-it-work-item a {
+		text-decoration: none;
+		color: #fff;
+	}
+	.how-it-work-item a:hover{
+		text-decoration: underline;
+	}
+/*========================= счастливые истории ======================*/
+	.item-success img {
+		margin-top: 5%;
+		height: auto;
+		width: 100%;
+
+	}
+	.s-date{
+		position: relative;
+		height: 35px;
+		width: 100%;
+		background-color: #666 !important;
+	}
+	.item-success h3{
+		display: block;
+		text-align: left;
+		border-radius:10px;
+		width: auto;
+		height: 50px;
+		margin: auto;
+		margin-bottom: 10px;
+		padding:13px 0 0 13px;
+		color:#fff;
+		background-color: #d82132;
+	}
+	.item-success h4{
+		text-align: right;
+		border-top: 1px solid #444;
+		padding: 10px 10px 0 0;
+		font-weight: normal;
+		font-style: italic;
+	}
+	.item-success p{
+		height: 100%;
+		width: 95%;
+		margin: auto;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		text-align: justify;
+	}
+/*========================= отзывы невест ===========================*/
+	.reviws-item{
+		padding: 5% 5% 0 5%;
+		text-align: justify;
+		margin-top: 5%;
+		text-indent: 8px;
+		background-color: #bd1d2c;
+		color: #fff;
+		border-radius: 10%;
+	}
+	.reviws-item p{
+		display: block;
+	}
+	div.reviws-item img.revives-img-two{
+		width: 10px;
+		margin: 1px 0 -5px 4px;
+	}
+	div.reviws-item img.revives-img-one {
+		width: 20px;
+		float: left;
+	}
+	.reviws-item h3{
+		width: 100%;
+		text-align: right;
+		padding: 5%;
+	}
+/*========================= контакты ================================*/
+	.contact{
+		background:rgba(0, 0, 0, 0.7);
+	}
+	.contact-item-block{
+		height:100%;
+		width:80%;
+		margin:auto;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		text-align:center;
+	}
+	.contacts-items{
+		display: block;
+		height: 200px;
+		width: 200px;
+		margin: auto;
+		border: 1px solid #fff;
+		text-decoration: none;
+		color: #fff;
+	}
+	.contacts-items h4{
+		color: #fff;
+		margin-top: 3%;
+		margin-bottom: 24%;
+	}
+	.contacts-items img{
+		margin-bottom: 26%;
+	}
+	.contacts-items:hover{
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+/*========================= футер ===================================*/
+	.footer{
+		height: 100%;
+		width: 100%;
+		padding-top: 15px;
+		background-color: #d82132;
+		text-align: center;
+		color: #fff;
+	}
+	.footer a{
+		text-decoration: none;
+		font-size: 13px;
+		color: #fff;
+	} 
+	.footer a:hover{
+		color: #444;
+	}
+	.footer h5{
+		padding-top: 8px;
+		font-size: 17px;
+		width: 100%;
+	}
+}

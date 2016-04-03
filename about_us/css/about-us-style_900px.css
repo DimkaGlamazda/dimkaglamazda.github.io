@@ -1,4 +1,5 @@
-@media (min-width: 1025px) and (max-width: 1366px){
+@media (min-width: 900px){
+/*========================= стандарные ==============================*/
 	*{
 		padding: 0;
 		margin: 0;
@@ -7,13 +8,9 @@
 		font: 300 16px/24px 'Roboto', sans-serif;
 		color: #000;
 	}
-/*===============================================================
-		container
-================================================================*/
 	div.container{
 		overflow: hidden;
-		height: auto;
-		width: 70%;
+		width: 900px;
 		margin: auto;
 		padding: 20px 0 20px 0;
 	}
@@ -33,10 +30,7 @@
 		padding: 10px 0 30px 0;
 		text-align: center;
 	}
-
-/*=================================================================
-			NavBar
-===============================================================*/
+/*========================= нав-панель ==============================*/
 	.fixed {
 		 margin-top:0px;
 		 position: fixed !important;
@@ -44,73 +38,59 @@
 		 z-index: 9999; 
 		 height:78px;
 		 width:100%;
-		 background-color:#bd1d2c !important;
+		 background: #bd1d2c !important;
 		 font: 300 16px/24px "Roboto", sans-serif;
 	}
 	div.navbar{
-		background-color:#d82132;
+		background: linear-gradient(to right, #bd1d2c 30%, #d82132 70%);
 		height: 78px;
 		width: 100%;
 	}
-	ul.naw-bar-items{
-		padding: 0 13% 0 13%;
-		list-style: none;
-
+	.naw-bar-items{
+		width: 900px; height: 78px;
+		margin: auto;
 	}
-	ul.naw-bar-items a{
+	.naw-bar-items a{
+		text-decoration: none;
 		color: #fff;
-		text-decoration: none;
 	}
-	ul.naw-bar-items a:hover{
+	.naw-bar-items a:hover{
 		color: #444;
-		text-decoration: none;
 	}
-	ul.naw-bar-items ul{
+	.naw-bar-items li{
 		float: left;
 		list-style: none;
 	}
-	ul.nav-bar-tm{
-		width: 46%; height: 78px;
-		margin-left: -18%;
-		padding-left: 18%;
+	.nav-bar-tm{
+		width: 387px; height: 78px;
+		background-color:#bd1d2c;
 		border-radius: 0 40px 40px 0;
-		background-color: #bd1d2c;
 	}
-	ul.nav-bar-tm li{
-		float: left;
-		width: 50%;
+	.nav-bar-tm li{
+		font-size: 21px;
+		padding: 20px 0 0 30px;
 	}
-	ul.nav-bar-tm li img{
-		padding: 18px 0 0 20%;
-
-	}
-	ul.nav-bar-tm li a{
+	.nav-bar-tm li a{
 		display: block;
-		width: 275px;
-		font-size:20px;
-		margin: 0 0 0 -96px;
-		padding-top: 26px;
+		padding-top: 5px;
 	}
-	ul.nav-bar-item-links{
-		float: left;
-		width: 54%;
+	.nav-bar-item-links{
+		width: 500px;
 	}
-	ul.nav-bar-item-links li{
-		float: left;
-		width: -4%;
-		padding: 28px 0 0 8%;
+	.nav-bar-item-links li{
+		width: 25%;
+		padding: 27px 0 0 0px;
+		text-align: center;
 	}
-/*======================== ABOUT US================================*/
-	
+/*========================= о нас ===================================*/
 	div.item_about_us{
 		padding: 0 10px 20px 10px;
 		text-align: justify;
 	}
 	div.item_about_us h2{
 		padding-bottom: 15px;
-		text-align: center;
 	}
-/*===================== Kiew office ==============================*/
+/*========================= офис в Киеве ============================*/
 	div.container-pink div.box-head h1{
 		color:#fff;
 	}
@@ -128,16 +108,15 @@
 	div.contacts_kiev a{
 		color:#fff;
 	}
-/*==================================================================
-		Японский офис
-==================================================================*/
+/*========================= офис в Японии ===========================*/
 	div.j-contact{
 		width: 50%;
 		float: left;
 		text-align: center;
+		padding-top: 60px;
 	}
 	div.j-contact img{
-		margin: 40px 0 0 0;
+		margin: 80px 0 0 0;
 		width: 100%;
 	}
 	img#j-img{
@@ -145,29 +124,27 @@
 		margin: 0 0 0 5%;
 		width: 45%;
 	}
+/*========================= карта ===================================*/
 	#map_canvas{
 		clear:both;
-		
 		width: 100%;
+		background-color: #fff;
 	}
-	iframe{
-		margin: 37px 0 10px 0;
-	}
-/*=================================================================
-		Контактная информация
-================================================================*/
+/*========================= контактная форма ========================*/
 	input.input_cust_data{
 		float: left;
-		border-radius: 7px;
 		width: 31%; height: 30px;
 		font-size: 25px;
 		margin: auto;
 		margin:0 0 20px 1%;
+		color:#999;
+	}
+	input.input_cust_data:focus {
+	    color:#000;
 	}
 	textarea#area_masage{
 		display: block;
 		resize: none;
-		border-radius: 7px;
 		font-size: 19px;
 		width: 96%; height: 200px;
 		margin-left: 1%;
@@ -190,9 +167,7 @@
 	a#btn_submit:hover{
 		background-color: #bd1d2c;
 	}
-/*==============================================================
-		Футер
-===============================================================*/
+/*========================= футер ===================================*/
 	.footer{
 		width: 100%;
 		background-color: #d82132;
@@ -211,10 +186,8 @@
 		color: #444;
 	}
 	.footer h5{
-		text-align: center;
 		margin: auto;
 		font-size: 17px;
 		width: 100%;
 	}
-	
 }

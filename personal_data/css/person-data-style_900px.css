@@ -1,4 +1,5 @@
-@media (min-width: 770px) and (max-width: 1024px){
+@media (min-width: 900px){
+/*========================= стандарные ==============================*/
 	*{
 		padding: 0;
 		margin: 0;
@@ -7,69 +8,62 @@
 		font: 300 16px/24px 'Roboto', sans-serif;
 		color: #000;
 	}
-/*===============================================================
-		NavBar
-===============================================================*/
-	.fixed {
+	.container{
+		width: 900px;
+		margin: auto;
+		padding: 20px 0 20px 0;
+	}
+/*========================= нав-панель ==============================*/
+	.fixed{
 		 margin-top:0px;
 		 position: fixed !important;
 		 top: 0px; 
 		 z-index: 9999; 
-		 height:78px;
-		 width:100%;
-		 background-color:#bd1d2c !important;
+		 background: #bd1d2c !important;
 		 font: 300 16px/24px "Roboto", sans-serif;
 	}
 	div.navbar{
-		background-color:#d82132;
+		background: linear-gradient(to right, #bd1d2c 30%, #d82132 70%);
 		height: 78px;
 		width: 100%;
 	}
-	ul.naw-bar-items{
-		list-style: none;
-
+	.naw-bar-items{
+		width: 900px; height: 78px;
+		margin: auto;
 	}
-	ul.naw-bar-items a{
+	.naw-bar-items a{
+		text-decoration: none;
 		color: #fff;
-		text-decoration: none;
 	}
-	ul.naw-bar-items a:hover{
+	.naw-bar-items a:hover{
 		color: #444;
-		text-decoration: none;
 	}
-	ul.naw-bar-items ul{
+	.naw-bar-items li{
 		float: left;
 		list-style: none;
 	}
-	ul.nav-bar-tm{
-		width: 46%; height: 78px;
+	.nav-bar-tm{
+		width: 387px; height: 78px;
+		background-color:#bd1d2c;
 		border-radius: 0 40px 40px 0;
-		background-color: #bd1d2c;
 	}
-	ul.nav-bar-tm li{
-		float: left;
-		width: 50%;
+	.nav-bar-tm li{
+		font-size: 21px;
+		padding: 20px 0 0 30px;
 	}
-	ul.nav-bar-tm li img{
-		padding: 18px 0 0 20%;
-	}
-	ul.nav-bar-tm li a{
+	.nav-bar-tm li a{
 		display: block;
-		width: 275px;
-		font-size:20px;
-		margin: 0 0 0 -100px;
-		padding-top: 26px;
+		padding-top: 5px;
 	}
-	ul.nav-bar-item-links{
-		float: left;
-		width: 54%;
+	.nav-bar-item-links{
+		width: 500px;
 	}
-	ul.nav-bar-item-links li{
-		float: left;
-		width: -4%;
-		padding: 28px 0 0 8%;
+	.nav-bar-item-links li{
+		width: 25%;
+		padding: 27px 0 0 0px;
+		text-align: center;
 	}
-/*============================================================*/
+/*========================= контент =================================*/
 	h1{
 		display: block;
 		margin: auto;
@@ -78,20 +72,18 @@
 		padding: 30px 0 30px 0;
 	}
 	div.low-text{
-		width: 95%;
+		width: 100%;
 		margin: auto;
-		padding: 30px 0 30px 0;
+		padding: 10px 0 0 0;
 		text-align: justify;
 	}
 	div.low-text h3{
 		display: block;
-		width: 95%;
+		width: 100%;
 		margin: auto;
 		border-bottom: 1px solid #451;
 	}
-	div.low-text p{
-		padding: 1% 0 1% 0;
-	}
+/*========================= футер ===================================*/
 	.footer{
 		width: 100%;
 		padding-top: ;

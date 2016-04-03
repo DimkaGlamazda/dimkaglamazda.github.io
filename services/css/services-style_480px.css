@@ -1,0 +1,95 @@
+@media (max-width: 480px) {
+/*========================= стандарные ==============================*/
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font: 300 16px/24px 'Roboto', sans-serif;
+		color: #000;
+	}
+	.container{
+		width: 90%;
+		margin: auto;
+		padding: 20px 0 20px 0;
+	}
+	.container-pink{
+		background-color: #d82132;
+		color: #fff;
+		width: 100%;
+	}
+	.container-white{
+		background-color: #fff;
+		width: 100%;
+	}
+/*========================= нав-панель ==============================*/
+	div.navbar{
+		background-color:#d82132;
+		height: 250px;
+		width: 100%;
+	}
+	ul.naw-bar-items{
+		width: 100%;
+		text-align: center;
+	}
+	ul.naw-bar-items a{
+		text-decoration: none;
+		color: #fff;
+	}
+	ul.nav-bar-tm{
+		background-color: #bd1d2c;
+		padding: 10px 0 15px 0;
+		font-size:20px;
+	}
+	ul.nav-bar-item-links a{
+		display: block;
+		padding: 1px 0 0 0;
+		border: 1px solid #fff;
+		margin: 10px;
+	}
+	ul.nav-bar-item-links a:hover{
+		border: 1px solid #bd1d2c;
+		background-color: #bd1d2c;
+	}
+/*========================= контент =================================*/
+	ul#list-of-services{
+		list-style: url(../picture/logo-list.png);
+		margin: 20px 0 20px 30px;
+	}
+	ul#list-of-services span{
+		display: block;
+		padding-bottom: 15px;
+		font-size: 22px;
+	}
+	h2{
+		margin-left: 30px;
+	}
+	p{
+		text-align: justify;
+		padding-top: 20px;
+	}
+/*========================= футер ===================================*/
+	.footer{
+		width: 100%;
+		background-color: #d82132;
+		text-align: center;
+		color: #fff;
+		padding: 13px 0 0 0;
+	}
+	.footer a {
+		width: 30%;
+		margin: auto;
+		text-decoration: none;
+		font-size: 13px;
+		color: #fff;
+	}
+	.footer a:hover{
+		color: #444;
+	}
+	.footer h5{
+		text-align: center;
+		margin: auto;
+		font-size: 17px;
+		width: 100%;
+	}
+}

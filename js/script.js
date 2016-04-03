@@ -8,9 +8,9 @@ $(document).ready(function() {
 	    autoPlay : 7000,//Скорость стояния слайда
       navigation : 1000, // Show next and prev buttons
       slideSpeed : false,
-      paginationSpeed : 100,//Скорость прокрутки слайда
+      paginationSpeed : 1000,//Скорость прокрутки слайда
 	    singleItem:true,
-	    pagination:false, //ТОчки внизу*/
+	    pagination:false, //Тoчки внизу*/
  
       // "singleItem:true" is a shortcut for:
       // items : 1, 

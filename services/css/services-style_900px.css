@@ -1,0 +1,116 @@
+@media (min-width: 900px){
+/*========================= стандарные ==============================*/
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		font: 300 16px/24px 'Roboto', sans-serif;
+		color: #000;
+	}
+	.container{
+		width: 900px;
+		margin: auto;
+		padding: 20px 0 20px 0;
+	}
+	.container-pink{
+		background-color: #d82132;
+		color: #fff;
+		width: 100%;
+	}
+	.container-white{
+		background-color: #fff;
+		width: 100%;
+	}
+/*========================= нав-панель ==============================*/
+	.fixed{
+		 margin-top:0px;
+		 position: fixed !important;
+		 top: 0px; 
+		 z-index: 9999; 
+		 background: #bd1d2c !important;
+		 font: 300 16px/24px "Roboto", sans-serif;
+	}
+	div.navbar{
+		background: linear-gradient(to right, #bd1d2c 30%, #d82132 70%);
+		height: 78px;
+		width: 100%;
+	}
+	.naw-bar-items{
+		width: 900px; height: 78px;
+		margin: auto;
+	}
+	.naw-bar-items a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.naw-bar-items a:hover{
+		color: #444;
+	}
+	.naw-bar-items li{
+		float: left;
+		list-style: none;
+	}
+	.nav-bar-tm{
+		width: 387px; height: 78px;
+		background-color:#bd1d2c;
+		border-radius: 0 40px 40px 0;
+	}
+	.nav-bar-tm li{
+		font-size: 21px;
+		padding: 20px 0 0 30px;
+	}
+	.nav-bar-tm li a{
+		display: block;
+		padding-top: 5px;
+	}
+	.nav-bar-item-links{
+		width: 500px;
+	}
+	.nav-bar-item-links li{
+		width: 25%;
+		padding: 27px 0 0 0px;
+		text-align: center;
+	}
+/*========================= контент =================================*/
+	ul#list-of-services{
+		list-style: url(../picture/logo-list.png);
+		margin: 20px 0 20px 30px;
+	}
+	ul#list-of-services span{
+		display: block;
+		padding-bottom: 15px;
+		font-size: 22px;
+	}
+	h2{
+		margin-left: 30px;
+	}
+	p{
+		text-align: justify;
+		padding-top: 20px;
+	}
+/*========================= футер ===================================*/
+	.footer{
+		width: 100%;
+		padding-top: ;
+		background-color: #d82132;
+		text-align: center;
+		color: #fff;
+	}
+	.footer a {
+		width: 30%;
+		margin: auto;
+		text-decoration: none;
+		font-size: 13px;
+		color: #fff;
+	}
+	.footer a:hover{
+		color: #444;
+	}
+	.footer h5{
+		text-align: center;
+		margin: auto;
+		font-size: 17px;
+		width: 100%;
+	}
+}

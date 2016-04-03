@@ -1,0 +1,411 @@
+@media (min-width: 900px){
+/*========================= стандарные ==============================*/
+	*{
+		margin: 0;
+		padding: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		transition: all .2s;
+	}
+	body{
+		font: 300 16px/24px 'Roboto', sans-serif;
+		color: #000;
+		background:url("../picture/carousel_1.jpg") no-repeat fixed center bottom;
+		background-size: cover;
+	}
+	.conteiner-white{
+		height: 100%;
+		width: 100%;
+		background-color: #fff !important;
+	}
+	.container-pink{
+		height: 100%;
+		width: 100%;
+		background-color: #d82132;
+	}
+	.container{
+		float: none;
+		height: 100%;
+		width: 900px;
+		margin: auto;
+	}
+	.box-head{
+		clear: both;
+		width: 100%;
+		height: auto;
+		line-height:200%;
+		padding: 3%;
+		padding-top: 5%;
+
+		text-align: center;
+	}
+	.box-body{
+		clear: both;
+		width: 100%;
+		margin: auto;
+		height: auto;
+		margin-bottom: 5%;
+	}
+/*========================= карусель ================================*/
+	#owl-demo{
+		width:100%;
+		height:560px;
+		background:#444;
+	}
+	.owl-theme{
+		margin:0;
+		padding:0;
+	}
+	.carousel_picture_1{
+		background:url("../picture/carousel_1.jpg") no-repeat;
+		width: 100%;
+		display: block;
+		background-size: cover;
+		opacity:0.4; -moz-opacity:0.4;
+		filter:alpha(opacity=40);
+	}
+
+	.carousel_picture_2{
+		background:url("../picture/carousel_2.jpg")no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: auto;
+		display: block;
+		opacity:0.4; -moz-opacity:0.4;
+		filter:alpha(opacity=40);
+	}
+
+	.carousel_picture_3{
+		background:url("../picture/carousel_3.jpg")no-repeat;
+		background-size: cover;
+		display: block;
+		opacity:0.4; -moz-opacity:0.4;
+		filter:alpha(opacity=40);
+	}
+	.item{
+		height:560px;
+		width:100%;
+		margin:0 auto;
+		padding:0 auto;
+	}
+/*========================= цель ====================================*/
+	.target{
+		position:absolute;
+		text-align: center;
+		width: 450px;
+		height: 450px;
+		top: 5%;
+		left: 50%;
+		margin-left: -213px;
+		border-radius: 100%;
+		border:1px solid;
+		border-color: rgba(255, 255, 255, 0.5);
+		color: #fff;
+	}
+	.inner-target{
+		position:absolute;
+		width: 390px;
+		height: 390px;
+		top:50%;
+		left: 50%;
+		margin-top: -197px;
+		margin-left: -198px;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 100%;
+	}
+	.inner-target h1{
+		display: inline-block;
+		line-height: 100%;
+		font-size: 85px;
+		padding: 70px 30px 0px 30px;
+	}
+	.inner-target h2{
+		font-size: 35px;
+		padding-top:20px;
+		font-weight:normal;
+	}
+	.inner-target a{
+		display: inline-block;
+		margin-top: 30px;
+		border-radius:20px;
+		text-decoration:none;
+		color:#fff;
+		padding-top: 13px;
+		height:50px;
+		width:200px;
+		background-color:#d82132;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	.inner-target a:hover{
+		background-color: #444;
+	}
+/*========================= нав-панель ==============================*/
+	.fixed {
+		 margin-top:0px;
+		 position: fixed !important;
+		 top: 0px; 
+		 z-index: 9999; 
+		 height:78px;
+		 width:100%;
+		 background: #bd1d2c !important;
+		 font: 300 16px/24px "Roboto", sans-serif;
+	}
+
+	div.navbar{
+		background: linear-gradient(to right, #bd1d2c 30%, #d82132 70%);
+		height: 78px;
+		width: 100%;
+	}
+
+	.naw-bar-items{
+		width: 900px; height: 78px;
+		margin: auto;
+	}
+	.naw-bar-items a{
+		text-decoration: none;
+		color: #fff;
+	}
+	.naw-bar-items a:hover{
+		color: #444;
+	}
+	.naw-bar-items li{
+		float: left;
+		list-style: none;
+	}
+	.nav-bar-tm{
+		width: 387px; height: 78px;
+		background-color:#bd1d2c;
+		border-radius: 0 40px 40px 0;
+	}
+	.nav-bar-tm li{
+		font-size: 21px;
+		padding: 20px 0 0 30px;
+	}
+	.nav-bar-tm li a{
+		display: block;
+		padding-top: 5px;
+	}
+	.nav-bar-item-links{
+		width: 500px;
+	}
+	.nav-bar-item-links li{
+		width: 25%;
+		padding: 27px 0 0 4px;
+		text-align: center;
+	}
+/*========================= о нас ===================================*/
+	.item-us{
+		clear: both;
+	}
+	.item-us img{
+		display: block;
+		float: left;
+		width: 200px;
+		height: auto;
+		padding: 5% 4% 3% 0;
+	}
+	.item-text h3{
+		text-align: left;
+		line-height:30px;
+		margin-bottom: 1%;
+		font-size:30px;
+		font-weight:normal;
+	}
+	.item-text{
+		width: 100%;
+		height: auto;
+		padding-top: 5%;
+		padding-bottom: 10%;
+		text-align: justify;
+	}
+/*========================= как это работает ========================*/
+	.color-pink{
+		color:#fff !important;
+	}
+	.hw-all{
+		margin-bottom: 30%;
+	}
+	.how-it-work-item{
+		text-align: center;
+		float: left;
+		width: 25%;
+		height: 100%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+	#icon_1{
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		background: transparent url("../picture/index_img04.png") no-repeat scroll 0px 0px;
+	}
+	#icon_1:hover{
+		background-position: 0px -78px;
+	}
+	#icon_2{
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		background: transparent url("../picture/index_img05.png") no-repeat scroll 0px 0px;
+	}
+	#icon_2:hover{
+		background-position: 0px -78px;
+	}
+	#icon_3{
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		background: transparent url("../picture/index_img06.png") no-repeat scroll 0px 0px;
+	}
+	#icon_3:hover{
+		background-position: 0px -78px;
+	}
+	#icon_4{
+		display: inline-block;
+		width: 78px;
+		height: 78px;
+		background: transparent url("../picture/index_img07.png") no-repeat scroll 0px 0px;
+	}
+	#icon_4:hover{
+		background-position: 0px -78px;
+	}
+	.how-it-work-item a {
+		text-decoration: none;
+		color: #fff;
+	}
+	.how-it-work-item a:hover{
+		text-decoration: underline;
+	}
+/*========================= счастливые истории ======================*/
+	.bonus-su{
+		overflow:hidden;
+	}
+	.item-success{
+		float: left;
+		width: 30%;
+		margin-left: 3%;
+	}
+	.item-success h3{
+		text-align: left;
+		display: block;
+		border-radius:10px;
+		width: 100%;
+		height: 50px;
+		padding:13px 0 0 10px;
+		color:#fff;
+		background-color: #d82132;
+	}
+	.item-success h4{
+		text-align: right;
+		margin-top: 10px;
+		border-top: 1px solid #444;
+		padding: 10px 10px 0 0;
+		font-weight: normal;
+		font-style: italic;
+	}
+	.item-success img {
+		display: block;
+		margin-top: 5%;
+		padding-bottom: 5%;
+		height: auto;
+		width: 100%;
+
+	}
+	.item-success p{
+		height: 100%;
+		width: 100%;
+		padding-top: 5%;
+		padding-bottom: 10%;
+		text-align: justify;
+	}
+/*========================= отзывы невест ===========================*/
+	.reviws-item{
+		padding: 2% 5% 2% 5%;
+		text-align: justify;
+		margin-top: 5%;
+		text-indent: 8px;
+		background-color: #bd1d2c;
+		color: #fff;
+		border-radius: 46px;
+	}
+	.reviws-item p{
+		display: block;
+	}
+	div.reviws-item img.revives-img-two{
+		width: 10px;
+		margin: 1px 0 -5px 5px;
+	}
+	div.reviws-item img.revives-img-one {
+		width: 20px;
+		float: left;
+	}
+	.reviws-item h3{
+		width: 100%;
+		text-align: right;
+		margin-top: 2%;
+	}
+/*========================= контакты ================================*/
+	.contact{
+		float: left;
+		background:rgba(0, 0, 0, 0.7);
+		width: 100%;
+		height: 100%;
+	}
+	.contact-item-block{
+		float: left;
+		height:100%;
+		width:25%;
+		padding: 10% 0 10% 0;
+		text-align:center;
+	}
+	.contacts-items{
+		display: inline-block;
+		height: 200px;
+		width: 200px;
+		margin: auto;
+		border: 1px solid #fff;
+		text-decoration: none;
+		color: #fff;
+	}
+	.contacts-items h4{
+		color: #fff;
+		margin-top: 3%;
+		margin-bottom: 24%;
+	}
+	.contacts-items img{
+		margin-bottom: 26%;
+	}
+	.contacts-items:hover{
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+/*========================= футер ===================================*/
+	.footer{
+		position: static;
+		clear: both;
+		height: auto;
+		width: 100%;
+		padding-top: 15px;
+		background-color: #d82132;
+		text-align: center;
+		color: #fff;
+	}
+	.footer a {
+		width: 30%;
+		margin: auto;
+		text-decoration: none;
+		font-size: 13px;
+		color: #fff;
+	}
+	.footer a:hover{
+		color: #444;
+	}
+
+	.footer h5{
+		text-align: center;
+		margin: auto;
+		font-size: 17px;
+		width: 100%;
+	}
+}

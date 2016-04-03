@@ -1,4 +1,5 @@
-@media (max-width: 480px) {
+@media (min-width: 481px) and (max-width: 900px) {
+/*========================= стандарные ==============================*/
 	*{
 		padding: 0;
 		margin: 0;
@@ -7,13 +8,10 @@
 		font: 300 16px/24px 'Roboto', sans-serif;
 		color: #000;
 	}
-/*===============================================================
-		container
-================================================================*/
 	div.container{
 		overflow: hidden;
-		height: auto;
-		width: 100%;
+		width: 90%;
+		margin: auto;
 		padding: 20px 0 20px 0;
 	}
 	div.conteiner-white{
@@ -32,41 +30,43 @@
 		padding: 10px 0 30px 0;
 		text-align: center;
 	}
-
-/*=================================================================
-			NavBar
-===============================================================*/
+/*========================= нав-панель ==============================*/
 	div.navbar{
 		background-color:#d82132;
-		height: 250px;
+		height: 153px;
 		width: 100%;
 	}
 	ul.naw-bar-items{
-		width: 100%;
-		text-align: center;
+		list-style: none;
 	}
 	ul.naw-bar-items a{
+		color:#fff;
 		text-decoration: none;
-		color: #fff;
+	}
+	ul.naw-bar-items a:hover{
+		color: #444;
 	}
 	ul.nav-bar-tm{
-		background-color: #bd1d2c;
-		padding: 10px 0 15px 0;
-		font-size:20px;
-	}
-	ul.nav-bar-item-links a{
-		display: block;
-		padding: 1px 0 0 0;
-		border: 1px solid #fff;
-		margin: 10px;
-	}
-	ul.nav-bar-item-links a:hover{
-		border: 1px solid #bd1d2c;
+		list-style: none;
+		width: 100%;
+		text-align: center;
+		padding: 10px 0 10px;
 		background-color: #bd1d2c;
 	}
-	
-/*======================== ABOUT US================================*/
-	
+	ul.nav-bar-tm li a{
+		font-size: 20px;
+	}
+	ul.nav-bar-item-links{
+		width: 100%;
+	}
+	ul.nav-bar-item-links li{
+		float: left;
+		width: 25%;
+		list-style: none;
+		padding: 10px 0 0 0;
+		text-align: center;
+	}
+/*========================= о нас ===================================*/
 	div.item_about_us{
 		padding: 0 10px 20px 10px;
 		text-align: justify;
@@ -75,7 +75,7 @@
 		padding-bottom: 15px;
 		text-align: center;
 	}
-/*===================== Kiew office ==============================*/
+/*========================= офис в Киеве ============================*/
 	div.container-pink div.box-head h1{
 		color:#fff;
 	}
@@ -93,9 +93,7 @@
 	div.contacts_kiev a{
 		color:#fff;
 	}
-/*==================================================================
-		Японский офис
-==================================================================*/
+/*========================= офис в Японии ===========================*/
 	div.j-contact{
 		width: 100%;
 		text-align: center;
@@ -108,29 +106,29 @@
 		float: left;
 		width: 100%;
 	}
+/*========================= карта ===================================*/
 	#map_canvas{
 		clear:both;
-		
 		width: 100%;
 	}
 	iframe{
 		margin: 37px 0 10px 0;
 	}
-/*=================================================================
-		Контактная информация
-================================================================*/
+/*========================= контактная форма ========================*/
 	input.input_cust_data{
 		display: block;
-		border-radius: 7px;
-		width: 80%; height: 30px;
+		width: 82%; height: 30px;
 		font-size: 25px;
 		margin: auto;
 		margin-bottom: 10px;
+		color:#999;
+	}
+	input.input_cust_data:focus {
+	    color:#000;
 	}
 	textarea#area_masage{
 		display: block;
 		resize: none;
-		border-radius: 7px;
 		font-size: 19px;
 		width: 82%; height: 200px;
 		margin: auto;
@@ -153,9 +151,7 @@
 	a#btn_submit:hover{
 		background-color: #bd1d2c;
 	}
-/*==============================================================
-		Футер
-===============================================================*/
+/*========================= футер ===================================*/
 	.footer{
 		width: 100%;
 		background-color: #d82132;
@@ -179,5 +175,4 @@
 		font-size: 17px;
 		width: 100%;
 	}
-	
 }
