@@ -4,19 +4,21 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width">
-	<title>about us</title>
+	<title>О нас</title>
 	
-	<!-- Style -->
+<!-- Style -->
 	<link rel="stylesheet" href="css/about-us-style_480px.css">
 	<link rel="stylesheet" href="css/about-us-style_481-768px.css">
 	<link rel="stylesheet" href="css/about-us-style_900px.css">
 
-	<!-- Scripts -->
+<!-- Scripts -->
 	<script src="js/jquery-1.12.1.js"></script>
 	<script src="js/about_us_script.js"></script>
 	<script src="js/jquery-migrate-1.2.1.js"></script>
 </head>
 <body>
+
+<!-- нав-панель -->
 
 	<div class="navbar">
 		<ul class="naw-bar-items">
@@ -31,11 +33,13 @@
 					<li><a href="ubout_us.html">O нас</a></li>
 					<li><a href="../services/services.html">Услуги</a></li>
 					<li><a href="#">Новости</a></li>
-					<li><a href="#">Личный кабинет</a></li>
+					<li><a href="#">Мой кабинет</a></li>
 				</ul>
 			</li>
 		</ul>
 	</div>
+
+<!-- О нас -->
 
 	<div class="container-white">
 		<div class="container">
@@ -66,13 +70,15 @@
 		</div>
 	</div>
 
+<!-- Контакты в Киеве -->
+
 	<div class="container-pink">
 		<div class="container">	
 			<div class="box-head">
 				<h1>Контакты в Киеве</h1>
 				<img src="picture/img_little_hard2.png" alt="little_hard">
-				<h3>Отдел по работе с клиентами</h3>
 			</div>
+			<h3>Отдел по работе с клиентами</h3>
 			<div class="contacts_kiev">
 				<h4>Tel: +30988435890</h4>
 				<h4>Email: smbody@mail.sms</h4>
@@ -89,6 +95,8 @@
 		</div>	
 	</div>
 
+<!-- Контакты в Японии -->
+
 	<div class="container-white">
 		<div class="container">
 			<div class="box-head">
@@ -98,6 +106,7 @@
 			<div class="j-contact">
 				<h4>Адрес главного офиса:</h4>
 				<address>〒104-0045 Tokyo, Chuo-ku, Tsukiji, 1 Chome−13−1, F9-1</address>
+				<h4>Tel: +81-03-3549-0261</h4>
 				<h4>Email: j-office@mail.jp</h4>
 				<img src="picture/reseption.jpg" alt="Картинка месности">
 			</div>
@@ -105,10 +114,13 @@
 		</div>
 	</div>
 
+<!-- Карта -->
+
 	<div id="map_canvas">
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1927.324353856198!2d139.769891411443!3d35.66812985833599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bde3b40fdb%3A0x390cf4ea33f708e!2zMSBDaG9tZS0xMy0xIFRzdWtpamksIENoxavFjS1rdSwgVMWNa3nFjS10byAxMDQtMD0NSwg0K_Qv9C0L3RltGP!5e0!3m2!1suk!2sua!4v1459667064960" width="100%" height="400px" frameborder"0" style="border: none" allowfullscreen></iframe>
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362.8250625216017!2d139.76881759203792!3d35.668074658118655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bde3b450fdb%3A0xb390cf4ea33f708e!2zMSBDaG9tZS0xMy0xIFRzdWtpamksIENoxavFjS1rdSwgVMWNa3nFjS10byAxMDQtMDA0NSwg0K_Qv9C-0L3RltGP!5e0!3m2!1suk!2sua!4v1459687062218" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
-		
+
+<!-- Меню отправки сообщений -->
 	
 	<div class="container-pink">
 		<div class="container">
@@ -116,17 +128,23 @@
 				<h1>Контактная форма</h1>
 				<img src="picture/img_little_hard2.png" alt="little_hard">
 			</div>
-			<input class="input_cust_data" type="text" value="Имя" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-			<input class="input_cust_data" type="text" value="Email"  onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-			<input class="input_cust_data" type="text" value="Телефон"  onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+			<input class="input_cust_data"  placeholder="Имя" type="text">
+			<input class="input_cust_data" type="text" placeholder="Email">
+			<input class="input_cust_data" type="text" placeholder="Телефон">
 			<textarea name="1" id="area_masage"></textarea>
 			<a href="#btn_submit" id="btn_submit">Отправить</a>
 		</div>
 	</div>
 
+<!-- футер -->
+
 	<div class="footer">
-		<a href="../personal_data/personal_data.html">Политика обработки персональных данных &gt;</a><br> <a href="#">Условия использования &gt;</a>
+		<div class="footer-ref">
+			<a href="../personal_data/personal_data.html">Политика обработки персональных данных</a> 
+			<a href="../тerms_of_use/тerms_of_use.html">Условия использования</a>
+		</div>
 		<h5>Брачное агентство «TOKIO» © 2016 All Rights Reserved</h5>
 	</div>
+
 </body>
 </html>

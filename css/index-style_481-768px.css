@@ -272,7 +272,7 @@
 	}
 	.item-success h3{
 		display: block;
-		text-align: left;
+		text-align: center;
 		border-radius:10px;
 		width: 70%;
 		height: 50px;
@@ -305,20 +305,22 @@
 		padding: 2% 5% 2% 5%;
 		text-align: justify;
 		margin-top: 5%;
-		text-indent: 6px;
 		background-color: #bd1d2c;
 		color: #fff;
 		border-radius: 46px;
 	}
 	.reviws-item p{
 		display: block;
+		width: 90%;
+		margin-left: 30px;
 	}
 	div.reviws-item img.revives-img-two{
 		width: 10px;
-		margin: 1px 0 -5px 5px;
+		margin: 1px 0 -5px 15px;
 	}
 	div.reviws-item img.revives-img-one {
 		width: 20px;
+		padding: -1px 1% 100px 0;
 		float: left;
 	}
 	.reviws-item h3{
@@ -371,13 +373,14 @@
 		color: #fff;
 	}
 	.footer a{
-		padding-top: 10px;
+		display: block;
 		text-decoration: none;
 		font-size: 13px;
 		color: #fff;
 	}
 	.footer a:hover{
 		color: #444;
+		text-decoration: underline;
 	}
 	.footer h5{
 		display: block;

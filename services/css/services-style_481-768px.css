@@ -22,6 +22,13 @@
 		background-color: #fff;
 		width: 100%;
 	}
+	div.box-head{
+		width: 100%;
+		line-height:200%;
+		padding: 10px 0 30px 0;
+		text-transform: uppercase;
+		text-align: center;
+	}
 /*========================= нав-панель ==============================*/
 	div.navbar{
 		background-color:#d82132;
@@ -66,6 +73,7 @@
 	ul#list-of-services span{
 		display: block;
 		padding-bottom: 15px;
+		margin-left: -20px;
 		font-size: 22px;
 	}
 	h2{
@@ -77,25 +85,26 @@
 	}
 /*========================= футер ===================================*/
 	.footer{
+		position: relative;
+		height: auto;
 		width: 100%;
+		padding-top: 15px;
 		background-color: #d82132;
 		text-align: center;
 		color: #fff;
-		padding-top: 15px;
 	}
-	.footer a {
-		width: 30%;
-		margin: auto;
+	.footer a{
+		display: block;
 		text-decoration: none;
 		font-size: 13px;
 		color: #fff;
 	}
 	.footer a:hover{
 		color: #444;
+		text-decoration: underline;
 	}
 	.footer h5{
-		text-align: center;
-		margin: auto;
+		display: block;
 		font-size: 17px;
 		width: 100%;
 	}

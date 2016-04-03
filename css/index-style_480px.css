@@ -283,29 +283,33 @@
 	}
 /*========================= отзывы невест ===========================*/
 	.reviws-item{
-		padding: 5% 5% 0 5%;
+		padding: 2% 5% 2% 5%;
 		text-align: justify;
 		margin-top: 5%;
-		text-indent: 8px;
 		background-color: #bd1d2c;
 		color: #fff;
-		border-radius: 10%;
+		border-radius: 46px;
 	}
 	.reviws-item p{
 		display: block;
+		padding: 10px 10px 0 0;
+		width: 90%;
+		margin-left: 30px;
 	}
 	div.reviws-item img.revives-img-two{
 		width: 10px;
-		margin: 1px 0 -5px 4px;
+		margin: 1px 0 -5px 15px;
 	}
 	div.reviws-item img.revives-img-one {
 		width: 20px;
+		margin: 10px 0 0 0;
+		padding: 0px 0px 100px 0;
 		float: left;
 	}
 	.reviws-item h3{
 		width: 100%;
+		margin: 10px 0 10px 0;
 		text-align: right;
-		padding: 5%;
 	}
 /*========================= контакты ================================*/
 	.contact{
@@ -341,7 +345,8 @@
 	}
 /*========================= футер ===================================*/
 	.footer{
-		height: 100%;
+		position: relative;
+		height: auto;
 		width: 100%;
 		padding-top: 15px;
 		background-color: #d82132;
@@ -349,15 +354,17 @@
 		color: #fff;
 	}
 	.footer a{
+		display: block;
 		text-decoration: none;
 		font-size: 13px;
 		color: #fff;
-	} 
+	}
 	.footer a:hover{
 		color: #444;
+		text-decoration: underline;
 	}
 	.footer h5{
-		padding-top: 8px;
+		display: block;
 		font-size: 17px;
 		width: 100%;
 	}

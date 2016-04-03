@@ -73,15 +73,14 @@
 	}
 	div.item_about_us h2{
 		padding-bottom: 15px;
-		text-align: center;
+		text-align: left;
 	}
 /*========================= офис в Киеве ============================*/
 	div.container-pink div.box-head h1{
 		color:#fff;
 	}
-	div.container-pink div.box-head h3{
+	div.container-pink div.container h3{
 		color: #fff;
-		font-style: italic;
 		font-weight: normal;
 	}
 	div.contacts_kiev h4{
@@ -109,6 +108,7 @@
 /*========================= карта ===================================*/
 	#map_canvas{
 		clear:both;
+		margin-bottom: 40px;
 		width: 100%;
 	}
 	iframe{
@@ -121,10 +121,7 @@
 		font-size: 25px;
 		margin: auto;
 		margin-bottom: 10px;
-		color:#999;
-	}
-	input.input_cust_data:focus {
-	    color:#000;
+		color:#000;
 	}
 	textarea#area_masage{
 		display: block;
@@ -150,28 +147,30 @@
 	}
 	a#btn_submit:hover{
 		background-color: #bd1d2c;
+		color: #444;
 	}
 /*========================= футер ===================================*/
 	.footer{
+		position: relative;
+		height: auto;
 		width: 100%;
+		padding-top: 15px;
 		background-color: #d82132;
 		text-align: center;
 		color: #fff;
-		padding: 13px 0 0 0;
 	}
-	.footer a {
-		width: 30%;
-		margin: auto;
+	.footer a{
+		display: block;
 		text-decoration: none;
 		font-size: 13px;
 		color: #fff;
 	}
 	.footer a:hover{
 		color: #444;
+		text-decoration: underline;
 	}
 	.footer h5{
-		text-align: center;
-		margin: auto;
+		display: block;
 		font-size: 17px;
 		width: 100%;
 	}
