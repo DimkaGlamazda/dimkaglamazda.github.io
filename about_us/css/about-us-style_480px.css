@@ -169,4 +169,7 @@
 		font-size: 17px;
 		width: 100%;
 	}
+	.footer span{
+		display: block;
+	}
 }

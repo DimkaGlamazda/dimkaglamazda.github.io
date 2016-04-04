@@ -45,6 +45,11 @@
 		text-align: center;
 	}
 /*========================= контент =================================*/
+	p.paige-head{
+		width: 85%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
 	h1{
 		width: 85%;
 		margin: auto;

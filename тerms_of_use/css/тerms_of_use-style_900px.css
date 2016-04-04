@@ -64,6 +64,10 @@
 		text-align: right;
 	}
 /*========================= контент =================================*/
+	p.paige-head{
+		width: ;
+		margin-bottom: 20px;
+	}
 	h1{
 		display: block;
 		margin: auto;

@@ -38,6 +38,11 @@
 		background-color: #bd1d2c;
 	}
 /*========================= контент =================================*/
+	p.paige-head{
+		width: 85%;
+		margin: auto;
+		margin-bottom: 20px;
+	}
 	h1{
 		width: 100%;
 		line-height: 36px;
@@ -85,5 +90,8 @@
 		display: block;
 		font-size: 17px;
 		width: 100%;
+	}
+	.footer span{
+		display: block;
 	}
 }
