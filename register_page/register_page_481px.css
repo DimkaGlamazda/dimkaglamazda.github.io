@@ -41,10 +41,12 @@
 /*========================= Классы для преключения ==================*/
 	#inner_wrapper{
 		margin: 0;
+		width: 100%;
 		transition: margin 500ms linear;
 	}
 	#on1{
 		float: left;
+		width: 100%;
 	}
 	#on2{
 		float: left;
