@@ -30,42 +30,6 @@
 		padding: 10px 0 30px 0;
 		text-align: center;
 	}
-/*========================= нав-панель ==============================*/
-	div.navbar{
-		background-color:#d82132;
-		height: 153px;
-		width: 100%;
-	}
-	ul.naw-bar-items{
-		list-style: none;
-	}
-	ul.naw-bar-items a{
-		color:#fff;
-		text-decoration: none;
-	}
-	ul.naw-bar-items a:hover{
-		color: #444;
-	}
-	ul.nav-bar-tm{
-		list-style: none;
-		width: 100%;
-		text-align: center;
-		padding: 10px 0 10px;
-		background-color: #bd1d2c;
-	}
-	ul.nav-bar-tm li a{
-		font-size: 20px;
-	}
-	ul.nav-bar-item-links{
-		width: 100%;
-	}
-	ul.nav-bar-item-links li{
-		float: left;
-		width: 25%;
-		list-style: none;
-		padding: 10px 0 0 0;
-		text-align: center;
-	}
 /*========================= о нас ===================================*/
 	div.item_about_us{
 		padding: 0 10px 20px 10px;
@@ -148,30 +112,5 @@
 	a#btn_submit:hover{
 		background-color: #bd1d2c;
 		color: #444;
-	}
-/*========================= футер ===================================*/
-	.footer{
-		position: relative;
-		height: auto;
-		width: 100%;
-		padding-top: 15px;
-		background-color: #d82132;
-		text-align: center;
-		color: #fff;
-	}
-	.footer a{
-		display: block;
-		text-decoration: none;
-		font-size: 13px;
-		color: #fff;
-	}
-	.footer a:hover{
-		color: #444;
-		text-decoration: underline;
-	}
-	.footer h5{
-		display: block;
-		font-size: 17px;
-		width: 100%;
 	}
 }

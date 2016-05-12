@@ -23,6 +23,10 @@ var toggle = new Toggle();
     this.scren_4 = document.getElementById('on4');
     this.scren_5 = document.getElementById('on5');
 
+
+    this.progeres_bar = document.getElementsByClassName("progres");
+
+
     this.counter = 0;
 
   }
@@ -31,7 +35,6 @@ var toggle = new Toggle();
 
 
   Toggle.prototype.toggle_button_next = function() {
-
     this.counter = this.counter + 1;
 
     if(this.counter <= 0) this.counter = 1;
@@ -41,18 +44,22 @@ var toggle = new Toggle();
       case 1:
           this.wrapper_inner.classList.remove('display_next_1');
           this.wrapper_inner.classList.add('display_next_2');
+          this.progeres_bar[0].style.width = '40%';
         break;
       case 2:
           this.wrapper_inner.classList.remove('display_next_2');
           this.wrapper_inner.classList.add('display_next_3');
+          this.progeres_bar[0].style.width = '60%';
         break;
       case 3:
           this.wrapper_inner.classList.remove('display_next_3');
           this.wrapper_inner.classList.add('display_next_4');
+          this.progeres_bar[0].style.width = '80%';
         break;
       case 4:
           this.wrapper_inner.classList.remove('display_next_4');
           this.wrapper_inner.classList.add('display_next_5');
+          this.progeres_bar[0].style.width = '100%';
         break;
     }
   }
@@ -67,21 +74,25 @@ var toggle = new Toggle();
           this.counter = this.counter - 1;
           this.wrapper_inner.classList.remove('display_next_2');
           this.wrapper_inner.classList.add('display_next_1');
+           this.progeres_bar[0].style.width = '20%';
         break;
       case 2:
           this.counter = this.counter - 1;
           this.wrapper_inner.classList.remove('display_next_3');
           this.wrapper_inner.classList.add('display_next_2');
+           this.progeres_bar[0].style.width = '40%';
         break;
       case 3:
           this.counter = this.counter - 1;
           this.wrapper_inner.classList.remove('display_next_4');
           this.wrapper_inner.classList.add('display_next_3');
+           this.progeres_bar[0].style.width = '60%';
         break;
       case 4:
           this.counter = this.counter - 1;
           this.wrapper_inner.classList.remove('display_next_5');
           this.wrapper_inner.classList.add('display_next_4');
+          this.progeres_bar[0].style.width = '80%';
         break;
     }
   }
