@@ -11,7 +11,7 @@
 	body{
 		font: 300 16px/24px 'Roboto', sans-serif;
 		color: #000;
-		background:url("../picture/smartfon/carousel_1_1024_68.jpg") no-repeat fixed center top;
+		background:url("../picture/smartfon/bg_1200-855.jpg") no-repeat fixed center top;
 	}
 	.conteiner-white{
 		height: 100%;
@@ -261,14 +261,15 @@
 		border-radius: 46px;
 	}
 	.reviws-item p{
+		margin:auto;
 		display: block;
-		padding: 10px 10px 0 0;
+		padding: 10px 0px 0 0;
 		width: 90%;
 
 	}
 	div.reviws-item img.revives-img-two{
 		width: 10px;
-		margin: 1px 0 -5px 15px;
+		margin: 1px 0 -5px 5px;
 	}
 	div.reviws-item img.revives-img-one {
 		width: 25px;
