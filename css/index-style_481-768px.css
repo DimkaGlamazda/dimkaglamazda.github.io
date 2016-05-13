@@ -274,7 +274,8 @@
 	}
 	.reviws-item p{
 		display: block;
-		width: 90%;
+		margin:auto;
+		width: 100%;
 	}
 	div.reviws-item img.revives-img-two{
 		width: 10px;
