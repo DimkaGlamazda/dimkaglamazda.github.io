@@ -113,6 +113,20 @@
 		background-color: rgba(255, 255, 255, 0.5);
 		border-radius: 100%;
 	}
+
+	.inner-target:hover{
+		position:absolute;
+		width: 430px;
+		height: 430px;
+		top:50%;
+		left: 50%;
+		margin-top: -215px;
+		margin-left: -215px;
+		padding-top: 18px;
+		font-size: 11px !important;
+		background-color: rgba(255, 255, 255, 0.5);
+		border-radius: 100%;
+	}
 	.inner-target h1{
 		display: inline-block;
 		line-height: 100%;
