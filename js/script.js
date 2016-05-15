@@ -21,6 +21,7 @@ $(document).ready(function() {
  
   }); 
 });
+
 //===========================================Эфект прилипания 
 $(function(){
 	 var topPos = $(".navbar").offset().top; //topPos - это значение от верха блока до окна браузера
@@ -31,6 +32,7 @@ $(function(){
 	 });
  }); 
 //======================================
+
  var top_show = 300; // В каком положении полосы прокрутки начинать показ кнопки "Наверх"
   var delay = 1000; // Задержка прокрутки
   $(document).ready(function() {
@@ -46,3 +48,17 @@ $(function(){
       }, delay);
     });
   });
+
+window.onload = function() {
+  window.onscroll = function() {
+    var scrol_size  = window.pageYOffset || document.documentElement.scrollTop;
+
+    var body = document.body;
+    if(scrol_size > 3850){
+      body.style.backgroundImage='url("picture/bg_2050-1461.jpg")';
+    }else if(scrol_size < 4700){
+      body.style.backgroundImage='url("picture/bg_1sm1200-811.jpg")';
+    }
+
+  }
+}

@@ -8,6 +8,11 @@
 		box-sizing: border-box;
 		transition: all .2s;
 	}
+	#test{
+		position: fixed;
+		top:10px; left: 10px;
+		color: black;
+	}
 	body{
 		background:url("../picture/smartfon/bg_1200-855.jpg") no-repeat fixed center top;
 		font: 300 16px/24px 'Roboto', sans-serif;
@@ -291,6 +296,40 @@
 		margin-top: 2%;
 		text-align: right;
 	}
+
+/*========================= news ====================================*/
+	.news-item{
+	overflow: hidden;
+	color: #fff;
+	width: 100%;s
+}
+.news-item img{
+	float: left;
+	margin: 50px 10px 10px 10px;
+	height: 150px; width: 30%;
+}
+.news-description{
+	float: left;
+	width: 60%;
+}
+.news-description h3{
+	margin: 10px 0 10px 30px;
+}
+.news-description h2{
+	margin: 10px 0 10px 30px;
+}
+.news-description p{
+	margin: 10px 0 10px 30px;
+}
+.link-mere-news {
+	clear: both;
+	width: 100%;
+	margin: 20px 0 30px 0;
+	text-align: center;
+}
+.link-mere-news a{
+	color: #fff;
+}
 /*========================= контакты ================================*/
 	.contact{
 		background:rgba(0, 0, 0, 0.7);

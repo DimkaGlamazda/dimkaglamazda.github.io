@@ -11,7 +11,7 @@
 	body{
 		font: 300 16px/24px 'Roboto', sans-serif;
 		color: #000;
-		background:url("../picture/bg_2050-1461.jpg") no-repeat fixed;
+		background: no-repeat fixed;
 		background-size: cover;
 	}
 	.conteiner-white{
@@ -29,6 +29,7 @@
 		height: 100%;
 		width: 900px;
 		margin: auto;
+		opacity: 1;
 	}
 	.box-head{
 		clear: both;
@@ -279,13 +280,16 @@
 		text-align: justify;
 	}
 /*========================= отзывы невест ===========================*/
+	.reviws{
+		background-color: rgba(172, 32, 44, 0.7);
+	}
 	.reviws-item{
+		opacity: inherit;
 		padding: 2% 5% 2% 5%;
 		text-align: justify;
 		margin-top: 5%;
-		background-color: #bd1d2c;
 		color: #fff;
-		border-radius: 46px;
+		border: 1px solid #fff;
 	}
 	.reviws-item p{
 		display: block;
@@ -306,6 +310,45 @@
 		text-align: right;
 		margin-top: 2%;
 	}
+
+/*========================= news ====================================*/
+.news-item{
+	margin: 40px 10px 10px 10px;
+	overflow: hidden;
+	color: #fff;
+	width: 100%;
+}
+.news-item img{
+	float: left;
+	margin: 50px 10px 10px 10px;
+	height: 150px; width: 30%;
+}
+.news-description{
+	float: left;
+	width: 60%;
+}
+.news-description h3{
+	margin: 10px 0 10px 30px;
+}
+.news-description h2{
+	margin: 10px 0 10px 30px;
+}
+.news-description p{
+	margin: 10px 0 10px 30px;
+}
+.news-description a{
+	margin: 10px 0 10px 30px;
+	color: #fff;
+}
+.link-mere-news {
+	clear: both;
+	width: 100%;
+	margin: 20px 0 30px 0;
+	text-align: center;
+}
+.link-mere-news a{
+	color: #fff;
+}
 /*========================= контакты ================================*/
 	.contact{
 		float: left;
