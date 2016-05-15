@@ -55,9 +55,9 @@ window.onload = function() {
 
     var body = document.body;
     if(scrol_size > 3850){
-      body.style.backgroundImage='url("picture/bg_2050-146111.jpg")';
-    }else if(scrol_size < 4700){
       body.style.backgroundImage='url("picture/bg_1sm1200-811.jpg")';
+    }else if(scrol_size < 4700){
+      body.style.backgroundImage='url("picture/bg_2050-1461.jpg")';
     }
 
   }
