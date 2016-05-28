@@ -1,0 +1,405 @@
+   @font-face {
+    font-family: brandon-grotesque; /* Имя шрифта */
+    src: url(../fonts/Brandon_bld.otf); /* Путь к файлу со шрифтом */
+    src: url(../fonts/Brandon_blk.otf); 
+    src: url(../fonts/Brandon_light.otf); 
+    src: url(../fonts/Brandon_med.otf); 
+   }
+
+
+html{
+	overflow-y: scroll;
+	min-height: 100%;
+}
+body, h1, h2, h3, h4, p{
+	margin: 0;
+	padding: 0;
+}
+html, input, textarea, button{
+	font-family: brandon-grotesque, sans-serif;
+	font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 112.5%;
+    line-height: 1.66667
+}
+.site-header{
+	min-height: 617px;
+	background-image:url("../images/home.jpg");
+}
+
+/*===================== NAV_BAR ==============================*/
+	.nav-bar{
+		width: 100%;
+		height: 174px;
+	}
+	.nav-bar img{
+		float: left;
+		margin: 0 0 0 40px;
+		height: 174px;
+		width: 174px;
+	}
+	.nav_item{
+		float: left;
+	}
+	.nav_item a{
+		font-family: brandon-grotesque, sans-serif;
+		border-bottom: 4px solid rgba(1, 1, 1, 0);
+		display: block;
+		width: 100px;
+		margin-left: 40px;
+		text-align: center;
+		text-decoration: none;
+		color: #fff;
+		font-size: 26px;
+	}
+	.nav_item a:hover{
+		border-color: #fff;
+	}
+	.nav_items{
+		float: left;
+		list-style: none;
+	}
+	.site-nav{
+		float: left;
+		margin-left: 25%;
+	}
+
+/*===================== TARGET ===============================*/
+	.target{
+		position:absolute;
+		text-align: center;
+		width: 450px;
+		height: 450px;
+		top: 20%;
+		left: 50%;
+		margin-left: -213px;
+		border-radius: 100%;
+		border:1px solid;
+		border-color: rgba(255, 255, 255, 0.5);
+		color: #fff;
+	}
+	.inner-target{
+		position:absolute;
+		width: 390px;
+		height: 390px;
+		top:50%;
+		left: 50%;
+		margin-top: -197px;
+		margin-left: -197px;
+		background-color: rgba(255, 255, 255, 0.3);
+		border-radius: 100%;
+	}
+
+	.inner-target:hover{
+		background-color: rgba(255, 255, 255, 0.5);
+	}
+	.inner-target h1{
+		display: inline-block;
+		line-height: 100%;
+		font-size: 85px;
+		padding: 50px 30px 0px 30px;
+	}
+	.inner-target h2{
+		font-size: 35px;
+		padding-top:10px;
+		font-weight:normal;
+	}
+	.inner-target a{
+		display: inline-block;
+		margin-top: 30px;
+		border-radius:20px;
+		text-decoration:none;
+		color:#fff;
+		padding-top: 10px;
+		height:40px;
+		width:200px;
+		background-color:#d82132;
+		font-weight:bold;
+		text-transform:uppercase;
+	}
+	.inner-target a:hover{
+		background-color: #444;
+	}
+/*=================================== about us ====*/
+	.head{
+		width: 75%;
+		margin:auto;
+		margin-top:70px;
+		margin-bottom: 100px;
+		text-align: center;
+		font-family: adobe-garamond-pro, serif;
+		color:#666;
+	}
+	.head h2{
+		color: black;
+		font-family: brandon-grotesque, sans-serif;
+		text-transform: uppercase;
+		margin-bottom: 30px;
+	}
+	.head h2:after{
+		background-color: #666;
+    	display: block;
+    	content: "";
+    	height: 1px;
+    	margin: 12px auto 0;
+    	width: 8.47039%;
+	}
+	.link_picture{
+		width: 1160px;
+		margin: auto;
+		margin-top: 30px;
+		padding-bottom: 350px;
+	}
+	.image_link{
+		float: left;
+		text-align: center;
+	}
+	.image_link p {
+		font-family: brandon-grotesque, sans-serif;
+		font-weight: bold;
+
+
+	}
+	.image_link img{
+		height: 265px;
+		width: 289px;
+	}
+/*======= wot we halp =======*/
+	.who_we_halp{
+		padding-top: 1px;
+		background: #EEF2F3; 
+		overflow: hidden;
+	}
+	.who_we_halp img{
+		float: left;
+		height: 252px;
+		width: 25%;
+	}
+	.large_button{
+		display: block;
+		width: 190px;
+		height: 29px;
+		margin:auto;
+		padding: 15px 60px 15px 20px;
+		text-align: center;
+		background-color: #33B294;
+		margin-top: 50px;
+		margin-bottom: 100px;
+		border-radius: 40px;
+		color: #fff;
+		font-style: italic;
+		font-family: adobe-garamond-pro, serif;
+		text-decoration: none;
+
+	}
+	.large_button:hover{
+		background: #4CCCAE;
+	}
+	.large_button img{
+		position: relative;
+		top: -28px;
+		left: 120px;
+		height: 25px;
+	}
+/*========== carousel ===========*/
+	.container_carousel{
+		width: 100%;
+		padding-bottom: 120px;
+		text-align: center;
+		background-color: #DD7674;
+	}
+	.img_photo{
+		width: 240px;
+		height: 245px;
+		margin:auto;
+		padding-top: 100px;
+	}
+
+	.image_frame{
+		position: relative;
+		top: -275px;
+		width: 240px;
+		height: 245px;		
+		margin: auto;
+	}
+
+	.carousel_item p{
+		width: 60%;
+		margin: auto;
+		margin-top: -220px;
+		color: #FBEDED;
+		font-family: adobe-garamond-pro, serif;
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.carousel_item p:before{
+		position: relative;
+		left: -6px;
+		top:10px;
+		content: "\201C";
+		font-size: 50px;
+
+	}
+	.carousel_item p:after{
+		position: relative;
+		right: -6px;
+		top:10px;
+		content: "\201D";
+		font-size: 50px;
+	}
+	.carousel_item h4{
+		padding-top: 15px;
+		color: #FBEDED;
+		font-size: 21px;
+		width: 60%;
+		margin: auto;
+		font-family: brandon-grotesque, sans-serif;
+		margin-top: 15px;
+	}
+	.carousel_item h4:before {
+   		background-color: #fff;
+    	display: block;
+    	content: "";
+    	height: 1px;
+    	margin: 12px auto 24px;
+    	width: 8.47039%;
+	}
+
+	/*========== Contacts ==============*/
+
+	.contacts_container{
+		width: 100%;
+		height: auto;
+	}
+	.contacts{
+		float: left;
+		padding-bottom: 120px;
+		width: 33%;
+		height: 500px;
+		
+	}
+	.contacts p{
+		font-size:16px;
+		font-style: adobe-garamond-pro, serif;
+	}
+	.contacts_bgr_green{
+		background-color: #33B294;
+	}
+	.contacts_bgr_green h2{
+		color: #fff !important;
+	}
+	.contacts a{
+		margin: 0 0 18px 80px;
+		font-size: 24px;
+		font-family:brandon-grotesque, sans-serif;
+	}
+	.contacts_bgr_green a{
+		color:#fff;
+	}
+	.contacts_bgr_green a:hover{
+		color:#D6F0EA;
+		text-decoration: none;
+	}
+	.contacts p{
+		margin: 20px 30px 40px 80px;
+	}
+	.contacts_bgr_green p{
+		color:#fff;
+	}
+	.contacts_center p{
+		padding-top: 60px;
+	}
+	.contacts h2{
+		margin: 144px 0 15px 80px;
+		font-family: brandon-grotesque, sans-serif;
+		font-size: 14px;	
+		color: #999;
+	}
+	#midl_link_footer{
+		display: block;
+		font-family: brandon-grotesque, sans-serif;;
+		color: #535353;
+		text-decoration: none;
+	}
+	#midl_link_footer:hover{
+		color:#B4B4B4;
+	}
+	#twiter_link_footer{
+		color:#00ACEE;
+		display: inline-block;
+		height: 30px;
+	}
+	#twiter_link_footer p{
+		position: relative;
+		top:-68px;
+		left:-30px;
+		font-size: 24px;
+		padding: none;
+	}
+	#twiter_link_footer img{
+		height: 35px;
+	}
+	/*=====================footer buttons =============================*/
+	.lit_button{
+		display: inline-block;
+		width: 76px;
+		height: 30px;
+		padding: 5px 60px 5px 10px;
+		text-align: center;
+		background-color: #33B294;
+		border-radius: 40px;
+		color: #fff;
+		font-style: italic;
+		font-family: adobe-garamond-pro, serif;
+		text-decoration: none;
+	}
+	.center_btn{
+		background-color: #333;
+	}
+	.center_btn:hover{
+		background-color: #666;
+	}
+	.center_btn p {
+		margin:0;
+		padding: 3px 0 0 10px;
+	}
+	.center_btn img {
+		position: relative;
+		top:-32px;
+		left:75px;
+		width: 24px;
+		margin:0;
+	}
+
+	.right_btn{
+		background-color: #00ACEE;
+	}
+	.right_btn:hover{
+		background-color:#7EDBFF;
+	}
+	.right_btn p {
+		margin:0;
+		padding: 3px 0 0 5px;
+	}
+	.right_btn img{
+		position: relative;
+		top:-32px;
+		left:75px;
+		width: 24px;
+		margin:0;
+	}
+
+/*===================== FOOTER  =========================*/
+.site-footer{
+	overflow: hidden;
+	background-color: #EEF2F3;
+	height: 114px;
+	width: 100%;
+}
+.site-footer p{
+	margin-top: 45px;
+	margin-left: 45px; 
+	font-size: 15px;
+	color:#9C9C9C;
+}
