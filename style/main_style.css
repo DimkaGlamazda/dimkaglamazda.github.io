@@ -1,143 +1,108 @@
-   @font-face {
-    font-family: brandon-grotesque; /* Имя шрифта */
-    src: url(../fonts/Brandon_bld.otf); /* Путь к файлу со шрифтом */
-    src: url(../fonts/Brandon_blk.otf); 
-    src: url(../fonts/Brandon_light.otf); 
-    src: url(../fonts/Brandon_med.otf); 
-   }
-
-
-html{
-	overflow-y: scroll;
-	min-height: 100%;
+*{
+	margin: 0; padding: 0;
 }
-body, h1, h2, h3, h4, p{
-	margin: 0;
-	padding: 0;
+body{
+	background: url("../images/background2.jpg") no-repeat fixed;
+	background-size: cover;
 }
-html, input, textarea, button{
-	font-family: brandon-grotesque, sans-serif;
-	font-style: normal;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    font-size: 112.5%;
-    line-height: 1.66667
-}
-.site-header{
-	min-height: 617px;
-	background-image:url("../images/home.jpg");
-}
-
-/*===================== NAV_BAR ==============================*/
-	.nav-bar{
-		width: 100%;
-		height: 174px;
+/*======================= Навигационная панель ===========================*/
+	.naw_bar{
+		width: 900px;
+		margin: auto;
 	}
-	.nav-bar img{
-		float: left;
-		margin: 0 0 0 40px;
-		height: 174px;
-		width: 174px;
-	}
-	.nav_item{
-		float: left;
-	}
-	.nav_item a{
-		font-family: brandon-grotesque, sans-serif;
-		border-bottom: 4px solid rgba(1, 1, 1, 0);
-		display: block;
-		width: 100px;
-		margin-left: 40px;
+	.naw_bar ul li{
+		display: inline-block;
 		text-align: center;
-		text-decoration: none;
-		color: #fff;
+		padding: 65px 0 0 60px;
+		font-family: brandon-grotesque, sans-serif;
 		font-size: 26px;
 	}
-	.nav_item a:hover{
+
+	.naw_bar ul li a{
+		display: block;
+		height: 30px;
+		padding-bottom: 10px;
+		text-decoration: none;
+		color: #fff;
+		border-bottom: 4px solid rgba(1, 1, 1, 0);
+	}
+	.naw_bar ul li a:hover{
 		border-color: #fff;
 	}
-	.nav_items{
+	.naw_bar a img{
 		float: left;
-		list-style: none;
+		width: 174px; height: 174px;
 	}
-	.site-nav{
-		float: left;
-		margin-left: 25%;
+/*======================= Фон худера сайта  ==============================*/
+	.header_page{
+		width: 100%;
+		min-height: 700px;
+		background-image:url("../images/home.jpg");
+		background-size: cover;
 	}
-
-/*===================== TARGET ===============================*/
-	.target{
-		position:absolute;
+/*======================= Нижний трехугольник в хедлере сайта ============*/
+	.bottom_triangle{
+		position: absolute;
+		top: 600px;
+		left: 0;
+		width: 100%;
+	}
+	#left_trapeze{
+		position: absolute;
+		top:0;
+		left:0;
+		border-bottom: 100px solid #fff;
+		border-left: 0px solid transparent;
+		border-right: 80px solid transparent;
+		height: 0;
+		width: 48%;
+	}
+	#right_trapeze{
+		position: absolute;
+		top:0;
+		right:0;
+		border-bottom: 100px solid #fff;
+		border-left: 80px solid transparent;
+		border-right: 0px solid transparent;
+		height: 0;
+		width: 48%;
+	}
+/*======================= Что предлагает наше агенство ===================*/
+	section.who_we_are{
+		background-color: #fff;
+	}
+	.container_about{
+		width: 900px;
+		margin: auto;
 		text-align: center;
-		width: 450px;
-		height: 450px;
-		top: 20%;
-		left: 50%;
-		margin-left: -213px;
-		border-radius: 100%;
-		border:1px solid;
-		border-color: rgba(255, 255, 255, 0.5);
-		color: #fff;
 	}
-	.inner-target{
-		position:absolute;
-		width: 390px;
-		height: 390px;
-		top:50%;
-		left: 50%;
-		margin-top: -197px;
-		margin-left: -197px;
-		background-color: rgba(255, 255, 255, 0.3);
-		border-radius: 100%;
+	.container_about ul{
+		width: 100%;
 	}
-
-	.inner-target:hover{
-		background-color: rgba(255, 255, 255, 0.5);
-	}
-	.inner-target h1{
+	.container_about ul li{
 		display: inline-block;
-		line-height: 100%;
-		font-size: 85px;
-		padding: 50px 30px 0px 30px;
+		padding: 0 10px;
 	}
-	.inner-target h2{
-		font-size: 35px;
-		padding-top:10px;
-		font-weight:normal;
+	.container_about ul li img{
+		width: 200px;
 	}
-	.inner-target a{
-		display: inline-block;
-		margin-top: 30px;
-		border-radius:20px;
-		text-decoration:none;
-		color:#fff;
-		padding-top: 10px;
-		height:40px;
-		width:200px;
-		background-color:#d82132;
-		font-weight:bold;
-		text-transform:uppercase;
+	.container_about ul{
+		padding: 50px 0;
 	}
-	.inner-target a:hover{
-		background-color: #444;
-	}
-/*=================================== about us ====*/
-	.head{
-		width: 75%;
-		margin:auto;
-		margin-top:70px;
-		margin-bottom: 100px;
-		text-align: center;
-		font-family: adobe-garamond-pro, serif;
-		color:#666;
-	}
-	.head h2{
-		color: black;
+	.container_about ul a{
+		text-decoration: none;
 		font-family: brandon-grotesque, sans-serif;
-		text-transform: uppercase;
-		margin-bottom: 30px;
+		font-weight: bold;
+		color: #333;
+		text-align: center;
 	}
-	.head h2:after{
+	.container_about h1{
+		font-size: 21px;
+		padding: 20px 0;
+		color: #333;
+		font-family: brandon-grotesque, sans-serif;
+	}
+	.container_about h1:after{
 		background-color: #666;
     	display: block;
     	content: "";
@@ -145,64 +110,212 @@ html, input, textarea, button{
     	margin: 12px auto 0;
     	width: 8.47039%;
 	}
-	.link_picture{
-		width: 1160px;
-		margin: auto;
-		margin-top: 30px;
-		padding-bottom: 350px;
-	}
-	.image_link{
-		float: left;
-		text-align: center;
-	}
-	.image_link p {
-		font-family: brandon-grotesque, sans-serif;
-		font-weight: bold;
-
-
-	}
-	.image_link img{
-		height: 265px;
-		width: 289px;
-	}
-/*======= wot we halp =======*/
-	.who_we_halp{
-		padding-top: 1px;
-		background: #EEF2F3; 
-		overflow: hidden;
-	}
-	.who_we_halp img{
-		float: left;
-		height: 252px;
-		width: 25%;
-	}
-	.large_button{
-		display: block;
-		width: 190px;
-		height: 29px;
-		margin:auto;
-		padding: 15px 60px 15px 20px;
-		text-align: center;
-		background-color: #33B294;
-		margin-top: 50px;
-		margin-bottom: 100px;
-		border-radius: 40px;
-		color: #fff;
-		font-style: italic;
+	.container_about p{
+		padding: 20px 0;
+		color: #333;
 		font-family: adobe-garamond-pro, serif;
-		text-decoration: none;
-
+		font-size: 18px;
+		line-height: 30px;
 	}
-	.large_button:hover{
+/*======================= Проблема с которой сталкивается каждая =========*/
+	section.article_problem{
+		background-color: #EEF2F3; 
+		text-align: center;
+		width: 100%;
+	}
+	.article_about_problem{
+		width: 900px;
+		margin: auto;
+	}
+	.article_about_problem h1{
+		text-transform: uppercase;
+		font-size: 21px;
+		padding-top: 120px;
+		color: #333;
+		font-family: brandon-grotesque, sans-serif;
+	}
+	.article_about_problem h1:after{
+		background-color: #666;
+    	display: block;
+    	content: "";
+    	height: 1px;
+    	margin: 12px auto 0;
+    	width: 8.47039%;
+	}
+	.article_about_problem  p{
+		padding: 20px 0;
+		color: #333;
+		font-family: adobe-garamond-pro, serif;
+		font-size: 18px;
+		line-height: 30px;
+	}
+
+	.article_about_problem h2{
+		text-transform: uppercase;
+		font-size: 19px;
+		padding-top: 30px;
+		color: #333;
+		font-family: brandon-grotesque, sans-serif;
+	}
+	.article_about_problem h2:after{
+		background-color: #666;
+    	display: block;
+    	content: "";
+    	height: 1px;
+    	margin: 12px auto 0;
+    	width: 8.47039%;
+	}
+	.article_about_problem a{
+		display:inline-block;
+		width: 350px;
+		margin: auto;
+		margin-top: 50px;
+		margin-bottom: 60px;
+		background-color: #33B294;
+		border-radius: 40px;
+	}
+	.article_about_problem a:hover{
 		background: #4CCCAE;
 	}
-	.large_button img{
-		position: relative;
-		top: -28px;
-		left: 120px;
-		height: 25px;
+	.article_about_problem a p{
+		float: left;
+		padding: 10px 10px 10px 15px;
+		color: #fff;
+		font-style: italic;
 	}
-/*========== carousel ===========*/
+	.article_about_problem a img{
+		float: left;
+		width: 35px;
+		margin: 12px 0 0 10px;
+	}
+/*======================= Отзывы невест ==================================*/
+	section.reviews_bg{
+		background-color: rgba(172, 32, 44, 0.7);
+	}
+	div.reviews{
+		width: 900px;
+		margin: auto;
+		padding-bottom: 70px;
+		text-align: center;
+		color: #fff;
+	}
+	div.reviews h1{
+		text-transform: uppercase;
+		font-size: 21px;
+		padding-top: 120px;
+		font-family: brandon-grotesque, sans-serif;
+	}
+	div.reviews h1:after{
+		background-color: #fff;
+    	display: block;
+    	content: "";
+    	height: 1px;
+    	margin: 12px auto 0;
+    	width: 8.47039%;
+	}
+	div.reviews h3{
+		padding: 30px 0;
+		text-align: center;
+		font-style: italic;
+		font-size: 17px;
+	}
+	div.reviews p{
+		padding: 20px 0;
+		font-size: 18px;
+		line-height: 30px;
+
+	}
+	div.reviws-item{
+		opacity: inherit;
+		padding: 2% 5% 2% 5%;
+		text-align: justify;
+		margin-top: 5%;
+		border: 1px solid #fff;
+	}
+	div.reviws-item:hover{
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+	div.reviws-item p{
+		display: block;
+		width: 800px;
+
+	}
+	div.reviws-item img.revives-img-two{
+		width: 10px;
+		margin: 1px 0 -5px 14px;
+	}
+	div.reviws-item img.revives-img-one {
+		float: left;
+		padding: 25px 10px 0px 0;
+		width: 25px;
+	}
+	div.reviws-item h3{
+		width: 100%;
+		text-align: right;
+		margin-top: 2%;
+	}
+/*======================= 5 причин =======================================*/
+	section.about_reasons{
+		background-color: #fff;
+		color: #333;
+	}
+	div.five_reasons{
+		width: 900px;
+		margin: auto;
+		padding-bottom: 70px; 
+		font-family: adobe-garamond-pro, serif;
+	}
+	div.five_reasons h1{
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 21px;
+		padding-top: 120px;
+		font-family: brandon-grotesque, sans-serif;
+	}
+	div.five_reasons h1:after{
+		background-color: #333;
+	    display: block;
+	    content: "";
+	    height: 1px;
+	    margin: 12px auto 0;
+	    width: 8.47039%;
+	}
+	div.five_reasons h3{
+		padding: 30px 0;
+		text-align: center;
+		font-style: italic;
+		font-size: 17px;
+	}
+	div.five_reasons h2{
+		padding: 40px 0 10px 0;
+	}
+/*======================= карусель  ========== ===========================*/
+	section.carousel{
+		background-color: #DD7674; 
+		color: #fff;
+		padding-bottom: 50px;
+	}
+	section.carousel h1{
+		text-transform: uppercase;
+		text-align: center;
+		font-size: 21px;
+		padding-top: 120px;
+		font-family: brandon-grotesque, sans-serif;
+	}
+	section.carousel h1:after{
+		background-color: #fff;
+    	display: block;
+    	content: "";
+    	height: 1px;
+    	margin: 12px auto 0;
+    	width: 8.47039%;
+	}
+	section.carousel h3{
+		padding: 30px 0;
+		text-align: center;
+		font-style: italic;
+		font-size: 17px;
+	}
 	.container_carousel{
 		width: 100%;
 		padding-bottom: 120px;
@@ -218,7 +331,7 @@ html, input, textarea, button{
 
 	.image_frame{
 		position: relative;
-		top: -275px;
+		top: -263px;
 		width: 240px;
 		height: 245px;		
 		margin: auto;
@@ -265,141 +378,160 @@ html, input, textarea, button{
     	margin: 12px auto 24px;
     	width: 8.47039%;
 	}
-
-	/*========== Contacts ==============*/
-
-	.contacts_container{
-		width: 100%;
-		height: auto;
+/*======================= Зарегистрируйтесь сейчас =======================*/
+	section.invite_bg{
+		background:rgba(0, 0, 0, 0.7);
 	}
-	.contacts{
-		float: left;
-		padding-bottom: 120px;
-		width: 33%;
-		height: 500px;
-		
-	}
-	.contacts p{
-		font-size:16px;
-		font-style: adobe-garamond-pro, serif;
-	}
-	.contacts_bgr_green{
-		background-color: #33B294;
-	}
-	.contacts_bgr_green h2{
-		color: #fff !important;
-	}
-	.contacts a{
-		margin: 0 0 18px 80px;
-		font-size: 24px;
-		font-family:brandon-grotesque, sans-serif;
-	}
-	.contacts_bgr_green a{
-		color:#fff;
-	}
-	.contacts_bgr_green a:hover{
-		color:#D6F0EA;
-		text-decoration: none;
-	}
-	.contacts p{
-		margin: 20px 30px 40px 80px;
-	}
-	.contacts_bgr_green p{
-		color:#fff;
-	}
-	.contacts_center p{
-		padding-top: 60px;
-	}
-	.contacts h2{
-		margin: 144px 0 15px 80px;
-		font-family: brandon-grotesque, sans-serif;
-		font-size: 14px;	
-		color: #999;
-	}
-	#midl_link_footer{
-		display: block;
-		font-family: brandon-grotesque, sans-serif;;
-		color: #535353;
-		text-decoration: none;
-	}
-	#midl_link_footer:hover{
-		color:#B4B4B4;
-	}
-	#twiter_link_footer{
-		color:#00ACEE;
-		display: inline-block;
-		height: 30px;
-	}
-	#twiter_link_footer p{
-		position: relative;
-		top:-68px;
-		left:-30px;
-		font-size: 24px;
-		padding: none;
-	}
-	#twiter_link_footer img{
-		height: 35px;
-	}
-	/*=====================footer buttons =============================*/
-	.lit_button{
-		display: inline-block;
-		width: 76px;
-		height: 30px;
-		padding: 5px 60px 5px 10px;
+	div.invite{
+		width: 900px;
+		margin: auto;
 		text-align: center;
-		background-color: #33B294;
-		border-radius: 40px;
 		color: #fff;
-		font-style: italic;
-		font-family: adobe-garamond-pro, serif;
+	}
+	div.invite h1{
+		text-transform: uppercase;
+		font-size: 21px;
+		padding-top: 120px;
+		font-family: brandon-grotesque, sans-serif;
+	}
+	div.invite h1:after{
+		background-color: #fff;
+	   	display: block;
+	   	content: "";
+	   	height: 1px;
+	   	margin: 12px auto 0;
+	   	width: 8.47039%;
+	}
+	div.invite a{
+		display: block;
+		padding: 40px 0;
 		text-decoration: none;
+		font-size: 21px;
+		color: #fff;
 	}
-	.center_btn{
-		background-color: #333;
+	div.invite a:hover{
+		text-decoration: underline;
 	}
-	.center_btn:hover{
-		background-color: #666;
+/*======================= Контиакты  =====================================*/
+	section.contacts{
+		overflow: hidden;
+		background: linear-gradient(to left, #fff 80%,#33B294 20%);
 	}
-	.center_btn p {
-		margin:0;
-		padding: 3px 0 0 10px;
+	div.contacts_container{
+		width: 900px;
+		margin: auto;
 	}
-	.center_btn img {
-		position: relative;
-		top:-32px;
-		left:75px;
-		width: 24px;
-		margin:0;
+	div.form_mesage {
+		float: left;
+		width: 40%;
+		background-color: #33B294; 
+		color: #fff;
+		text-align: center;
+		padding-bottom: 50px;
 	}
-
-	.right_btn{
-		background-color: #00ACEE;
+	div.form_mesage h1{
+		padding: 30px 0;
 	}
-	.right_btn:hover{
-		background-color:#7EDBFF;
-	}
-	.right_btn p {
-		margin:0;
-		padding: 3px 0 0 5px;
-	}
-	.right_btn img{
-		position: relative;
-		top:-32px;
-		left:75px;
-		width: 24px;
-		margin:0;
+	div.form_mesage input{
+		font-size: 22px;
+		height: 25px;
+		width: 70%;
+		margin: auto;
+		margin: 10px 0;
 	}
 
-/*===================== FOOTER  =========================*/
-.site-footer{
-	overflow: hidden;
-	background-color: #EEF2F3;
-	height: 114px;
-	width: 100%;
-}
-.site-footer p{
-	margin-top: 45px;
-	margin-left: 45px; 
-	font-size: 15px;
-	color:#9C9C9C;
-}
+	div.form_mesage textarea{
+		height: 200px;
+		width: 70%;
+		resize: none;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;  
+		font-size: 22px;
+	}
+	div.form_mesage a{
+		display: block;
+		width: 100px;
+		margin: auto;
+		padding: 10px 20px;
+		border: 1px solid #fff;
+		text-align: center; 
+		text-decoration: none;
+		color: #fff;
+		border-radius: 40px;
+
+	}
+	div.form_mesage a:hover{
+		color: #333;
+		background-color:#D6F0EA;
+		text-align: center;
+	}
+	div.our_news{
+		float: left;
+		width: 40%;
+		color: #333;
+	}
+	div.our_news h3{
+		text-align: center;
+	}
+	div.our_news h1{
+		text-align: center;
+		margin: 20px 0;
+	}
+	div.our_news img{
+		width: 100%;
+		margin: auto;
+	}
+	div.our_news p{
+		text-align: center;
+	}
+	a#read_more{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	a#other_news{
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin: 60px 0 0 0;
+		font-size: 23px;
+		color: #333;
+	}
+	div.social_networks{
+		text-align: center;
+	}
+	div.social_networks a{
+		color: #333;
+	}
+/*======================= Footer =========================================*/
+	section.site_footer{
+		overflow: hidden;
+		background-color: #EEF2F3;
+	}
+	div.footer_elem{
+		position: relative;
+		width: 900px;
+		margin: auto;
+	}
+	div.footer_links_panel{
+		width: 70%;
+	}
+	div.footer_links_panel a{
+		float: left;
+		color: #333;
+		padding: 25px 5px 15px 15px;
+	}
+	div#button_up{
+		position: absolute;
+		top:0;
+		left: 90%;
+		width: 114px;
+		height: 114px;
+		background-color: #dee2e3;
+		cursor: pointer;
+	}
+	div.last_sentences{
+		clear: both;
+		text-align: center;
+	}

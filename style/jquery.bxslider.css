@@ -43,7 +43,7 @@
 
 .bx-wrapper .bx-loading {
 	min-height: 50px;
-	background: url(images/bx_loader.gif) center center no-repeat #fff;
+	background: url(../images/bx_loader.gif) center center no-repeat #fff;
 	height: 100%;
 	width: 100%;
 	position: absolute;
@@ -71,7 +71,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-	background: url(../../images/bx-pager.png) no-repeat 0 0;
+	background: url(../images/bx-pager.png) no-repeat 0 0;
 	background-size:cover;
 
 	text-indent: -9999px;
@@ -87,7 +87,7 @@
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-	background: url(../../images/bx-pager.png) no-repeat 0 -19px;
+	background: url(../images/bx-pager.png) no-repeat 0 -19px;
 	background-size:cover;
 }
 
@@ -95,13 +95,13 @@
 
 .bx-wrapper .bx-prev {
 	left: 30px;
-	background: url(../../images/controls-prev.png) no-repeat 0 0;
+	background: url(../images/controls-prev.png) no-repeat 0 0;
 	background-size:cover;
 }
 
 .bx-wrapper .bx-next {
 	right: 30px;
-	background: url(../../images/controls-next.png) no-repeat 0 0;
+	background: url(../images/controls-next.png) no-repeat 0 0;
 	background-size:cover;
 }
 
