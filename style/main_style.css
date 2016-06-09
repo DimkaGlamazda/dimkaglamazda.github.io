@@ -1,5 +1,6 @@
 *{
 	margin: 0; padding: 0;
+	font-family: Roboto-Condensed, sans-serif;
 }
 body{
 	background: url("../images/background2.jpg") no-repeat fixed;
@@ -7,14 +8,14 @@ body{
 }
 /*======================= Навигационная панель ===========================*/
 	.naw_bar{
-		width: 900px;
+		width: 1200px;
 		margin: auto;
 	}
 	.naw_bar ul li{
 		display: inline-block;
 		text-align: center;
 		padding: 65px 0 0 60px;
-		font-family: brandon-grotesque, sans-serif;
+		font-weight: bolder;
 		font-size: 26px;
 	}
 
@@ -32,18 +33,19 @@ body{
 	.naw_bar a img{
 		float: left;
 		width: 174px; height: 174px;
+		margin-left: 10%; 
 	}
-/*======================= Фон худера сайта  ==============================*/
+/*======================= Фон Фудера сайта  ==============================*/
 	.header_page{
 		width: 100%;
-		min-height: 700px;
+		height: 800px;
 		background-image:url("../images/home.jpg");
 		background-size: cover;
 	}
 /*======================= Нижний трехугольник в хедлере сайта ============*/
 	.bottom_triangle{
 		position: absolute;
-		top: 600px;
+		top: 700px;
 		left: 0;
 		width: 100%;
 	}
@@ -72,7 +74,7 @@ body{
 		background-color: #fff;
 	}
 	.container_about{
-		width: 900px;
+		width: 1200px;
 		margin: auto;
 		text-align: center;
 	}
@@ -91,7 +93,6 @@ body{
 	}
 	.container_about ul a{
 		text-decoration: none;
-		font-family: brandon-grotesque, sans-serif;
 		font-weight: bold;
 		color: #333;
 		text-align: center;
@@ -100,20 +101,10 @@ body{
 		font-size: 21px;
 		padding: 20px 0;
 		color: #333;
-		font-family: brandon-grotesque, sans-serif;
-	}
-	.container_about h1:after{
-		background-color: #666;
-    	display: block;
-    	content: "";
-    	height: 1px;
-    	margin: 12px auto 0;
-    	width: 8.47039%;
 	}
 	.container_about p{
 		padding: 20px 0;
 		color: #333;
-		font-family: adobe-garamond-pro, serif;
 		font-size: 18px;
 		line-height: 30px;
 	}
@@ -124,7 +115,7 @@ body{
 		width: 100%;
 	}
 	.article_about_problem{
-		width: 900px;
+		width: 1200px;
 		margin: auto;
 	}
 	.article_about_problem h1{
@@ -132,20 +123,11 @@ body{
 		font-size: 21px;
 		padding-top: 120px;
 		color: #333;
-		font-family: brandon-grotesque, sans-serif;
-	}
-	.article_about_problem h1:after{
-		background-color: #666;
-    	display: block;
-    	content: "";
-    	height: 1px;
-    	margin: 12px auto 0;
-    	width: 8.47039%;
 	}
 	.article_about_problem  p{
 		padding: 20px 0;
 		color: #333;
-		font-family: adobe-garamond-pro, serif;
+		text-align: justify;
 		font-size: 18px;
 		line-height: 30px;
 	}
@@ -155,15 +137,6 @@ body{
 		font-size: 19px;
 		padding-top: 30px;
 		color: #333;
-		font-family: brandon-grotesque, sans-serif;
-	}
-	.article_about_problem h2:after{
-		background-color: #666;
-    	display: block;
-    	content: "";
-    	height: 1px;
-    	margin: 12px auto 0;
-    	width: 8.47039%;
 	}
 	.article_about_problem a{
 		display:inline-block;
@@ -193,7 +166,7 @@ body{
 		background-color: rgba(172, 32, 44, 0.7);
 	}
 	div.reviews{
-		width: 900px;
+		width: 1200px;
 		margin: auto;
 		padding-bottom: 70px;
 		text-align: center;
@@ -202,34 +175,27 @@ body{
 	div.reviews h1{
 		text-transform: uppercase;
 		font-size: 21px;
-		padding-top: 120px;
-		font-family: brandon-grotesque, sans-serif;
-	}
-	div.reviews h1:after{
-		background-color: #fff;
-    	display: block;
-    	content: "";
-    	height: 1px;
-    	margin: 12px auto 0;
-    	width: 8.47039%;
+		padding-top: 70px;
 	}
 	div.reviews h3{
-		padding: 30px 0;
+		padding: 15px 0 30px;
 		text-align: center;
 		font-style: italic;
 		font-size: 17px;
 	}
 	div.reviews p{
-		padding: 20px 0;
+		padding: 15px 0 10px;
 		font-size: 18px;
 		line-height: 30px;
 
 	}
 	div.reviws-item{
+		width: 900px;
+		margin: auto;
 		opacity: inherit;
-		padding: 2% 5% 2% 5%;
+		padding: 2% 0 2% 5%;
 		text-align: justify;
-		margin-top: 5%;
+		margin-top: 30px;
 		border: 1px solid #fff;
 	}
 	div.reviws-item:hover{
@@ -246,39 +212,31 @@ body{
 	}
 	div.reviws-item img.revives-img-one {
 		float: left;
-		padding: 25px 10px 0px 0;
+		padding: 18px 10px 0px 0;
 		width: 25px;
 	}
 	div.reviws-item h3{
-		width: 100%;
+		width: 90%;
+		padding: 0;
+		padding-right: 50px;
 		text-align: right;
-		margin-top: 2%;
 	}
 /*======================= 5 причин =======================================*/
 	section.about_reasons{
 		background-color: #fff;
+		text-align: justify;
 		color: #333;
 	}
 	div.five_reasons{
-		width: 900px;
+		width: 1200px;
 		margin: auto;
 		padding-bottom: 70px; 
-		font-family: adobe-garamond-pro, serif;
 	}
 	div.five_reasons h1{
 		text-transform: uppercase;
 		text-align: center;
 		font-size: 21px;
 		padding-top: 120px;
-		font-family: brandon-grotesque, sans-serif;
-	}
-	div.five_reasons h1:after{
-		background-color: #333;
-	    display: block;
-	    content: "";
-	    height: 1px;
-	    margin: 12px auto 0;
-	    width: 8.47039%;
 	}
 	div.five_reasons h3{
 		padding: 30px 0;
@@ -300,15 +258,6 @@ body{
 		text-align: center;
 		font-size: 21px;
 		padding-top: 120px;
-		font-family: brandon-grotesque, sans-serif;
-	}
-	section.carousel h1:after{
-		background-color: #fff;
-    	display: block;
-    	content: "";
-    	height: 1px;
-    	margin: 12px auto 0;
-    	width: 8.47039%;
 	}
 	section.carousel h3{
 		padding: 30px 0;
@@ -331,7 +280,7 @@ body{
 
 	.image_frame{
 		position: relative;
-		top: -263px;
+		top: -264px;
 		width: 240px;
 		height: 245px;		
 		margin: auto;
@@ -342,7 +291,6 @@ body{
 		margin: auto;
 		margin-top: -220px;
 		color: #FBEDED;
-		font-family: adobe-garamond-pro, serif;
 		font-size: 30px;
 		line-height: 40px;
 	}
@@ -367,7 +315,6 @@ body{
 		font-size: 21px;
 		width: 60%;
 		margin: auto;
-		font-family: brandon-grotesque, sans-serif;
 		margin-top: 15px;
 	}
 	.carousel_item h4:before {
@@ -375,16 +322,21 @@ body{
     	display: block;
     	content: "";
     	height: 1px;
-    	margin: 12px auto 24px;
+    	margin: 0px auto 24px;
     	width: 8.47039%;
+	}
+	div.carousel_item h5{
+		padding: 40px 0 0 0;
+		font-size: 25px;
 	}
 /*======================= Зарегистрируйтесь сейчас =======================*/
 	section.invite_bg{
 		background:rgba(0, 0, 0, 0.7);
 	}
 	div.invite{
-		width: 900px;
+		width: 1200px;
 		margin: auto;
+		padding-bottom: 40px;
 		text-align: center;
 		color: #fff;
 	}
@@ -392,38 +344,36 @@ body{
 		text-transform: uppercase;
 		font-size: 21px;
 		padding-top: 120px;
-		font-family: brandon-grotesque, sans-serif;
-	}
-	div.invite h1:after{
-		background-color: #fff;
-	   	display: block;
-	   	content: "";
-	   	height: 1px;
-	   	margin: 12px auto 0;
-	   	width: 8.47039%;
 	}
 	div.invite a{
 		display: block;
-		padding: 40px 0;
+		margin: 40px auto 0;
+		width: 200px;
+		padding: 20px 20px;
+
+		border: 1px solid #fff;
+		border-radius:40px;
 		text-decoration: none;
 		font-size: 21px;
 		color: #fff;
 	}
 	div.invite a:hover{
-		text-decoration: underline;
+		background-color: rgba(255, 255, 255, 0.3);
 	}
 /*======================= Контиакты  =====================================*/
 	section.contacts{
 		overflow: hidden;
-		background: linear-gradient(to left, #fff 80%,#33B294 20%);
+		height: 590px;
+		background: linear-gradient(to left, #fff 60%,#33B294 40%);
 	}
 	div.contacts_container{
-		width: 900px;
+		width: 1200px;
 		margin: auto;
 	}
 	div.form_mesage {
 		float: left;
 		width: 40%;
+		height: 590px;
 		background-color: #33B294; 
 		color: #fff;
 		text-align: center;
@@ -470,6 +420,7 @@ body{
 		float: left;
 		width: 40%;
 		color: #333;
+		padding: 30px 0 0 0;
 	}
 	div.our_news h3{
 		text-align: center;
@@ -479,11 +430,16 @@ body{
 		margin: 20px 0;
 	}
 	div.our_news img{
-		width: 100%;
+		display: block;
+		width: 80%;
 		margin: auto;
+		padding: 15px 0;
 	}
 	div.our_news p{
-		text-align: center;
+		display: block;
+		width: 80%;
+		margin: auto;
+		text-align: justify;
 	}
 	a#read_more{
 		display: block;
@@ -494,12 +450,13 @@ body{
 		display: block;
 		width: 100%;
 		text-align: center;
-		margin: 60px 0 0 0;
+		margin: 30px 0 0 0;
 		font-size: 23px;
 		color: #333;
 	}
 	div.social_networks{
 		text-align: center;
+		padding: 30px 0 0 0;
 	}
 	div.social_networks a{
 		color: #333;
@@ -516,20 +473,39 @@ body{
 	}
 	div.footer_links_panel{
 		width: 70%;
+		height: 20px;
+		margin: 20px 0;
 	}
 	div.footer_links_panel a{
 		float: left;
 		color: #333;
-		padding: 25px 5px 15px 15px;
+		padding: 4px 10px 5px;
+		border-right: 1px solid #333;
+	}
+	div.footer_links_panel a:nth-child(4){
+		border-right: none;
+	}
+	div.footer_links_panel a:hover{
+		color: #666;
+		text-decoration: none;
 	}
 	div#button_up{
 		position: absolute;
-		top:0;
+		top:-30px;
 		left: 90%;
-		width: 114px;
+		width: 110px;
 		height: 114px;
-		background-color: #dee2e3;
 		cursor: pointer;
+		background-color: #dee2e3;
+	}
+	div#button_up:hover{
+		background-color: #999;
+	}
+	div#button_up img{
+		display: block;
+		padding: 25px 18px 18px;
+		height: 40px;
+		width: 70px;
 	}
 	div.last_sentences{
 		clear: both;

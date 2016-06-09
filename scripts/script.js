@@ -24,7 +24,7 @@ window.onload = function() {
 
     var body = document.body;
     if(scrol_size > 3850){
-      body.style.backgroundImage='url("images/background4.jpg")';
+      body.style.backgroundImage='url("images/bg_invite.jpg")';
     }else if(scrol_size < 4700){
       body.style.backgroundImage='url("images/background2.jpg")';
     }
