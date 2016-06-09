@@ -1,0 +1,174 @@
+@media (min-width: 900px){
+	html {
+		-webkit-text-size-adjust: none;
+}
+/*========================= стандарные ==============================*/
+	*{
+		margin: 0;
+		padding: 0;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		transition: all .2s;
+	}
+	body{
+		font: 300 16px/24px 'Roboto', sans-serif;
+		color: #000;
+		overflow-x: hidden;
+
+	}
+	.conteiner-white{
+		height: 100%;
+		width: 100%;
+		background-color: #fff !important;
+	}
+	.container-pink{
+		height: 100%;
+		width: 100%;
+		background-color: #d82132;
+	}
+	.container{
+		float: none;
+		height: 100%;
+		width: 900px;
+		margin: auto;
+	}
+	.box-head{
+		clear: both;
+		width: 100%;
+		height: auto;
+		line-height:200%;
+		padding: 3%;
+		padding-top: 5%;
+		text-align: center;
+	}
+	.box-body{
+		clear: both;
+		width: 100%;
+		margin: auto;
+		height: auto;
+		margin-bottom: 5%;
+	}
+/*========================= Контент =================================*/
+/*========================= Классы для преключения ==================*/
+	#inner_wrapper{
+		margin: 0;
+		transition: margin 500ms linear;
+	}
+	#on1{
+		float: left;
+	}
+	#on2{
+		float: left;
+	}
+	#on3{
+		float: left;
+
+	}
+	#on4{
+		float: left;
+	}
+	#on5{
+		float: left;
+	}
+
+	.display_next_1{
+		margin-left: 0 !important;
+	}
+	.display_next_2{
+		margin-left:-100% !important;
+	}
+	.display_next_3{
+		margin-left:-200% !important;
+	}
+	.display_next_4{
+		margin-left:-300% !important;
+	}
+	.display_next_5{
+		margin-left:-400% !important;
+	}
+/*========================= Progres-bar =============================*/
+	.progres_bar{
+		width: 900px; 
+		height: 5px;
+		margin: auto;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		background-color: #444;
+		border-radius:10px;
+	}
+	.progres{
+		border-radius:10px;
+		height: 5px;
+		width: 20%;
+		background-color: #d82132;
+	}
+/*========================= Поля ввода данных =======================*/
+	.inner_anket_element form{
+		width: 900px;
+		margin: auto;
+	}
+	.lable_dicoration{
+		float: left;
+		width: 50%;
+		font-size: 15px;
+		padding-left: 20%;
+	}
+	.input_decoration{
+		float: left;
+		width: 40%;
+		border-radius: 10px;
+
+	}
+	.inner_anket_element img{
+		display: block;
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	input.input_decoration:focus{
+		outline: none;
+	}
+	tr{
+		width: 100px;
+	}
+	td{
+		width: 700px;
+		padding: 5px 0 5px 0;
+	}
+	input{
+		height: 30px;
+		font-size: 20px;
+	}
+	#button_grup{
+		position: fixed;
+		z-index: auto;
+		top:20px;
+		left: 20px;
+		clear:both;
+		width: 100px;
+		margin:auto;
+	}
+	.button_toggle{
+		float: left;
+		margin: 10px;
+	}
+
+	#next_step{
+		clear:both;
+		display: block;
+		margin: auto;
+		margin-top: 370px;
+		margin-bottom: 50px;
+		text-align: center;
+		border: 1px solid #fff;
+		border-radius:20px;
+		color:#fff;
+		height:40px; width:200px;
+		background-color:#d82132;
+		font-weight:bold;
+		text-decoration: none;
+		text-transform:uppercase;
+		padding-top: 8px;
+	}
+}
