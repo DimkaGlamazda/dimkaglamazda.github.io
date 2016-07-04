@@ -1,0 +1,84 @@
+
+@font-face {
+	font-family: roboto-regular; 
+	src: url('../fonts/roboto-regular.ttf');
+}
+
+$background-color-1: #fff;
+$background-color-2: #EEF2F3;
+$background-color-3: #DD7674;
+$background-color-4: #4CCCAE;
+
+$background-color-button-1:#4CCCAE;
+
+$font-color-1: #666;
+$font-color-2: #fff;
+
+$links-color-1: #fff;
+$links-color-2: #111;
+
+
+@mixin height-width($height, $width){
+	height: $height;
+	width: $width;
+}
+
+
+$fonts-family: roboto-regular;
+$font-family-link: roboto-regular;
+$font-family-button: roboto-regular;
+
+$font-size-xlar: 36px;
+$font-size-lar: 24px;
+$font-size-norm: 18px;
+$font-size-sm: 12px;
+
+@import "style1x";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) { 
+	*{
+		margin:0;
+		padding:0;
+	}
+	section.header_page{
+		background-image: url("../images/background2.jpg");
+		background-size: cover;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+	*{
+		margin:0;
+		padding:0;
+	}
+	section.header_page{
+		background-image: url("../images/background2.jpg");
+		background-size: cover;
+	}
+}
+
+
+@media (min-width: 1200px) {
+	*{
+		margin:0;
+		padding:0;
+	}
+	section.header_page{
+		background-image: url("../images/background2.jpg");
+		background-size: cover;
+	}
+}

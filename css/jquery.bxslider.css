@@ -19,6 +19,7 @@
 	margin: 0;
 	padding: 0;
 	*zoom: 1;
+	
 }
 
 .bx-wrapper img {
@@ -37,6 +38,9 @@
 	position: absolute;
 	bottom: 10px;
 	width: 100%;
+	
+	
+
 }
 
 /* LOADER */
@@ -92,8 +96,16 @@
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
+@media (max-width: 480px) {
+	 .bx-next , .bx-prev{
+		display: none;
+	}
+
+}
+
 
 .bx-wrapper .bx-prev {
+
 	left: 30px;
 	background: url(../images/controls-prev.png) no-repeat 0 0;
 	background-size:cover;
