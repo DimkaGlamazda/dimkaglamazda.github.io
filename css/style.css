@@ -31,7 +31,7 @@ p {
   line-height: 25px; }
 
 body {
-  background: url("../images/background2.jpg") no-repeat fixed;
+  background: no-repeat fixed;
   background-size: cover;
   background-position: right; }
 
@@ -44,7 +44,7 @@ section.header_page {
   position: relative;
   height: 110vh;
   width: 100%;
-  background-image: url("../images/background2.jpg");
+  background: url("../images/background2.jpg");
   background-size: cover;
   background-position: right; }
 
@@ -145,9 +145,10 @@ div#right_trapeze {
 /*----------------------------*/
 div.container_about {
   margin: auto;
-  padding: 40px 0;
+  padding: 50px 0;
   text-align: center; }
   div.container_about h1 {
+    padding-top: 50px;
     line-height: 40px; }
   div.container_about p {
     font-size: 18px;
@@ -352,7 +353,7 @@ div.container_carousel {
     margin: auto; }
   div.container_carousel img.image_frame {
     position: relative;
-    top: -288px;
+    top: -289px;
     height: 271px;
     width: 240px;
     margin: auto; }

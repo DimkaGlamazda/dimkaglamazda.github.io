@@ -57,7 +57,7 @@ p{
 	line-height: 25px;
 }
 body{
-	background: url("../images/background2.jpg") no-repeat fixed;
+	background: no-repeat fixed;
 	background-size: cover;
 	background-position: right; 
 }
@@ -71,7 +71,7 @@ section.news, section.site_footer{
 section.header_page{
 	position:relative;
 	@include height-width(110vh, 100%);
-	background-image: url("../images/background2.jpg");
+	background: url("../images/background2.jpg");
 	background-size: cover;
 	background-position: right;
 }
@@ -189,9 +189,10 @@ div#right_trapeze{
 
 div.container_about{
 	margin:auto;
-	padding: 40px 0;
+	padding: 50px 0;
 	text-align: center;
 	h1{
+		padding-top:50px;
 		line-height: 40px;
 	}
 	p{
@@ -438,7 +439,7 @@ div.container_carousel{
 	}
 	img.image_frame{
 		position: relative;
-		top: -288px;
+		top: -289px;
 		@include height-width(271px, 240px);	
 		margin: auto;
 	}
