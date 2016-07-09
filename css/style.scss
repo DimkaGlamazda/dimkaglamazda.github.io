@@ -57,9 +57,8 @@ p{
 	line-height: 25px;
 }
 body{
-	background: no-repeat;
-	/*background-size: cover;*/
-	/*background-position: right; */
+	background: url("../images/background2.jpg") no-repeat fixed;
+	background-size: cover;
 }
 section.who_we_are, section.about_reasons, 
 section.news, section.site_footer{
