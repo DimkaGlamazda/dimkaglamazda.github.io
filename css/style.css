@@ -407,7 +407,7 @@ div.container_carousel {
     width: 1000px; } }
 /*----------------------------*/
 section.invite_bg {
-  /*background-:rgba(0, 0, 0, 0.7);*/ }
+  background: rgba(0, 0, 0, 0.7); }
 
 div.invite {
   height: auto;
