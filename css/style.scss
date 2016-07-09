@@ -1,8 +1,8 @@
-@-webkit-viewport   { width: device-width; }
+/*@-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
+@viewport           { width: device-width; }*/
 
 @font-face {
 	font-family: Roboto-Black; 
@@ -172,7 +172,7 @@ div#left_trapeze{
 	border-left: 0px solid transparent;
 	border-right: 70px solid transparent;
 	height: 0;
-	width: 45%;
+	width: 47%;
 }
 div#right_trapeze{
 	position: absolute;
@@ -182,12 +182,7 @@ div#right_trapeze{
 	border-left: 70px solid transparent;
 	border-right: 0px solid transparent;
 	height: 0;
-	width: 45%;
-}
-@media (min-width: 1000px){
-	div#left_trapeze, div#right_trapeze{
-		width: 47%;
-	}
+	width: 47%;
 }
 
 /*----------------------------*/
