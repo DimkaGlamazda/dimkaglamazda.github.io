@@ -31,7 +31,9 @@ p {
   line-height: 25px; }
 
 body {
-  background: url("../images/background2.jpg") no-repeat fixed;
+  background-image: url("../images/background2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover; }
 
 section.who_we_are, section.about_reasons,
