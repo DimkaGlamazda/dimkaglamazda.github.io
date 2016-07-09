@@ -31,7 +31,7 @@ p {
   line-height: 25px; }
 
 body {
-  background-image: url("../images/background2.jpg");
+  background-image: url(../images/background2.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover; }
@@ -45,7 +45,7 @@ section.header_page {
   position: relative;
   height: 110vh;
   width: 100%;
-  background: url("../images/background2.jpg");
+  background: url(../images/background2.jpg);
   background-size: cover;
   background-position: right; }
 

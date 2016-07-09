@@ -11,7 +11,7 @@ function  ready(){
 	container.style.width = document.documentElement.clientWidth + "px";
 	sideBar.style.left = document.documentElement.clientWidth + "px";
 	triangle.style.top = document.documentElement.clientHeight + "px";
-	body.style.backgroundImage='url("../images/bg_invite.jpg")';
+	body.style.backgroundImage='url(images/bg_invite.jpg)';
 }
 
 var container = document.getElementById('js-container');
@@ -52,9 +52,9 @@ window.onload = function() {
     var a = document.documentElement.scrollHeight / 10;
     var body = document.body;
     if(scrol_size > a * 6){
-      body.style.backgroundImage='url("images/bg_invite.jpg")';
+      body.style.backgroundImage='url(images/bg_invite.jpg)';
     }else if(scrol_size < a * 6){
-      body.style.backgroundImage='url("images/background2.jpg")';
+      body.style.backgroundImage='url(images/background2.jpg)';
     }
 
   }
