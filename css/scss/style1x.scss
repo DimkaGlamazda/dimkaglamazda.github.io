@@ -1,0 +1,421 @@
+@media (max-width: 480px) { 
+	
+
+
+	/*----------------------------*/
+
+	section.header_page{
+		position:relative;
+		@include height-width(110vh, 100%);
+		background-image: url("../images/background2.jpg");
+		background-size: cover;
+		background-position: right;
+	}
+	ul#js-nav-bar{
+		position: fixed;
+		top:0;
+		left:0;
+		@include height-width(110vh, 40vw);
+		background-color: #444;
+		li{
+			@include height-width(30px,99%);
+			padding: 10px 10px;
+			border-right: 2px solid #fff;
+			a{
+				display: block;
+				@include height-width(auto, 100%);
+				font-family:$font-family-link;
+				font-size: $font-size-xlar;
+				color:$links-color-1;
+				
+			}
+		}
+
+	}
+	div.naw_bar img{
+		@include height-width(100px, 100px);
+		margin: 1px 15px;
+	}
+	img#btn-nav-drop{
+		position:absolute;
+		top:0;
+		right: 2px;
+		@include height-width(40px, 40px);
+		margin: 10px 0;
+	}
+
+	/*----------------------------*/
+
+	div#bottom_triangle{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+	div#left_trapeze{
+		position: absolute;
+		top:0;
+		left:0;
+		border-bottom: 100px solid #fff;
+		border-left: 0px solid transparent;
+		border-right: 70px solid transparent;
+		height: 0;
+		width: 45%;
+	}
+	div#right_trapeze{
+		position: absolute;
+		top:0;
+		right:0;
+		border-bottom: 100px solid #fff;
+		border-left: 70px solid transparent;
+		border-right: 0px solid transparent;
+		height: 0;
+		width: 45%;
+	}
+	section.who_we_are{
+		background-color: $background-color-1;	
+	}
+	div.container_about{
+		@include height-width(auto, 90%);
+		margin:auto;
+		padding: 40px 0;
+		text-align: center;
+		h1{
+			line-height: 40px;
+		}
+		p{
+			font-size: $font-size-norm;
+			padding: 20px 0;
+		}
+		img{
+			@include height-width(auto, 50%);
+			margin:auto;
+		}
+		a{
+			font-family:$font-family-link;
+			font-size: $font-size-lar;
+			color:$links-color-2;
+		}
+	}
+
+	/*----------------------------*/
+
+	section.article_problem{
+		background-color: $background-color-2;
+	}
+	div.article_about_problem{
+		text-align: center;
+		@include height-width(auto, 90%);
+		margin:auto;
+		padding:40px 0;
+		
+		h1{
+			line-height: 40px;
+		}
+		p{
+			font-size: $font-size-norm;
+			padding: 20px 0;
+		}
+		a{
+			display: block;
+			@include height-width(20px, 90%);
+			margin: auto;
+			background-color: $background-color-button-1;
+			color:$links-color-1;
+			padding: 10px 0;
+			border-radius:40px;
+			span{
+				float: left;
+				@include height-width(auto, 75%);
+			}
+			img{
+				float: left;
+				@include height-width(22px, auto);
+			}
+		}
+		a:hover{
+			background-color: #444;
+		}
+	}
+
+	/*----------------------------*/
+
+	section.reviews_bg{
+		background-color: rgba(172, 32, 44, 0.7);
+	}
+
+	div.reviews{
+		width: 70%;
+		margin: auto;
+		padding: 40px 0;
+		text-align: center;
+		color: $font-color-2;
+
+	}
+
+	div.reviews h3{
+		padding: 15px 0 30px;
+		text-align: center;
+		font-style: italic;
+		font-size: $font-size-norm;
+	}
+	div.reviws-item{
+		@include height-width(auto, 100%);
+		margin: auto;
+		opacity: inherit;
+		padding: 2% 0 2% 5%;
+		margin-top: 30px;
+		border: 1px solid #fff;
+		p{
+			padding: 15px 10px 10px;
+			font-size: $font-size-norm;
+			line-height: 30px;
+		}
+		img.revives-img-two{
+			width: 10px;
+			margin: 1px 0 -5px 14px;
+		}
+		img.revives-img-one {
+			float: left;
+			padding: 18px 10px 0px 0;
+			width: 25px;
+		}
+		h3{
+			width: 90%;
+			padding: 25px 0;
+		}
+	}
+	div.reviws-item:hover{
+		background-color: rgba(255, 255, 255, 0.2);
+	}
+
+	/*----------------------------*/
+
+	section.about_reasons{
+		background-color: $background-color-1;
+	}
+	div.five_reasons{
+		@include height-width(auto, 90%);
+		margin: auto;
+		padding: 40px 0;
+		text-align: center;
+		h1{
+			font-size: $font-size-xlar;
+
+		}
+		h3{
+			padding: 15px 0;
+			font-style: italic;
+			font-size: $font-size-norm;
+		}
+		h2{
+			font-size: $font-size-lar;
+			padding: 40px 0 10px 0;
+		}
+	}
+
+	/*----------------------------*/
+
+	section.carousel{
+		@include height-width(auto, 100%);
+		background-color: $background-color-3; 
+		color: $font-color-2;
+		text-align: center;
+		padding: 40px 0;
+		h1{
+			font-size: $font-size-xlar;
+			padding:40px 0;
+		}
+		h3{
+			padding: 30px 0;
+			text-align: center;
+			font-style: italic;
+			font-size: $font-size-norm;
+		}
+	}
+
+	div.container_carousel{
+		@include height-width(auto, 90%);
+		width: 100%;
+		text-align: center;
+		
+		div.img_photo{
+			@include height-width(270px, 240px);
+			margin:auto;
+		}
+		img.img_photo{
+			@extend div.img_photo;
+		}
+		img.image_frame{
+			position: relative;
+			top: -289px;
+			@include height-width(270px, 240px);	
+			margin: auto;
+		}
+		div.name-date{
+			position:relative;
+			top: -200px;
+		}
+		h5{
+			font-size: 25px;
+		}
+		h4{
+			padding-top: 15px;
+			color: #FBEDED;
+			font-size: 21px;
+			width: 90%;
+			margin: auto;
+			margin-top: 15px;
+		}
+		
+		p{
+			@include height-width(auto, 80%);
+			position:relative;
+			top: -200px;
+			margin: auto;
+			margin-top: 0;
+			font-size: $font-size-norm;
+		}
+		p:before{
+			position: relative;
+			left: -6px;
+			top:10px;
+			content: "\201C";
+			font-size: 40px;
+
+		}
+		p:after{
+			position: relative;
+			right: -6px;
+			top:10px;
+			content: "\201D";
+			font-size: 40px;
+		}
+	}
+	section.invite_bg{
+		background:rgba(0, 0, 0, 0.7);
+	}
+	div.invite{
+		@include height-width(auto, 90%);
+		margin: auto;
+		padding: 40px 0;
+		text-align: center;
+		color: $font-color-2;
+		h1{
+			font-size: $font-size-lar;
+		}
+		a{
+			display: block;
+			@include height-width(auto, 80%);
+			margin: 40px auto 0;
+			padding: 20px 20px;
+			border: 1px solid #fff;
+			border-radius:40px;
+			font-size: $font-size-norm;
+			color:$links-color-1;
+		}
+		a:hover{
+			background-color: rgba(255, 255, 255, 0.3);
+		}
+	}
+	section.news{
+		@include height-width(auto, 100%);
+		padding: 40px 0;
+		text-align: center;
+		background-color: $background-color-1; 
+
+	}
+	div.our_news{
+		img{
+			@include height-width(auto, 80%);
+			margin: 20px auto;
+		}
+		h1{
+			font-size: $font-size-lar;
+		}
+		h3{
+			font-size: $font-size-lar;
+			padding: 15px 0;
+		}
+		a p{
+			@extend img;
+			font-size: $font-size-norm;
+			color: $links-color-2;
+		}
+		a#other_news{
+			display: block;
+			@include height-width(auto, 60%);
+			margin: 40px auto 0;
+			background-color: $background-color-button-1;
+			padding: 10px 20px;
+			border: 1px solid #fff;
+			border-radius:40px;
+			font-size: $font-size-norm;
+			color:$links-color-1;
+		}
+		a#other_news:hover{
+			background-color: #444;
+		}
+	}
+	section.contacts{
+		@extend section.news;
+		background-color: $background-color-4;
+	}
+	div.contacts_container{
+		h1{
+			font-size: $font-size-lar;
+			color: $font-color-2;
+			margin: 15px 0;
+		}
+		input{
+			@include height-width(30px, 80%);
+			margin: 10px 0;
+		}
+		textarea{
+			@include height-width(200px, 80%);
+			resize: none;
+			margin: auto;
+			margin-top: 30px;
+			margin-bottom: 30px;  
+			font-size: $font-size-lar;
+			color: $font-color-1;
+		}
+		a{
+			display: block;
+			@include height-width(auto, 60%);
+			margin: auto;
+			padding: 10px 20px;
+			border: 1px solid #fff;
+			text-align: center; 
+			text-decoration: none;
+			border-radius: 40px;
+			font-size: $font-size-norm;
+			color:$links-color-1;
+		}
+		a:hover{
+			background-color: #444;
+		}
+	}
+	section.site_footer{
+		@extend section.news;
+		padding:10px 0;
+		margin: 0 auto;
+	}
+	div.footer_elem{
+		li{
+			padding: 4px 0;
+		}
+		a{
+			color:black;
+		}
+		a:hover{
+			text-decoration: underline;
+		}
+	}
+	div#button_up{
+		display: none;
+	}
+
+	
+
+}

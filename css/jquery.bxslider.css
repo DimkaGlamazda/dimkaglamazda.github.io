@@ -19,7 +19,7 @@
 	margin: 0;
 	padding: 0;
 	*zoom: 1;
-	
+	transition: none !important;
 }
 
 .bx-wrapper img {
@@ -100,7 +100,11 @@
 	 .bx-next , .bx-prev{
 		display: none;
 	}
-
+}
+@media (max-width: 768px) {
+	 .bx-next , .bx-prev{
+		display: none;
+	}
 }
 
 
