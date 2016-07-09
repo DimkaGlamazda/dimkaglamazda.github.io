@@ -11,6 +11,7 @@ function  ready(){
 	container.style.width = document.documentElement.clientWidth + "px";
 	sideBar.style.left = document.documentElement.clientWidth + "px";
 	triangle.style.top = document.documentElement.clientHeight + "px";
+	body.style.backgroundImage='url("images/bg_invite.jpg")';
 }
 
 var container = document.getElementById('js-container');

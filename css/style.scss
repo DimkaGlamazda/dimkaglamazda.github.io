@@ -1,8 +1,8 @@
-/*@-webkit-viewport   { width: device-width; }
+@-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }*/
+@viewport           { width: device-width; }
 
 @font-face {
 	font-family: Roboto-Black; 
@@ -431,18 +431,15 @@ div.container_carousel{
 	width: 100%;
 	text-align: center;
 
-	div.img_photo{
-		@include height-width(270px, 240px);
-		margin:auto;
-	}
+
 	img.img_photo{
 		@include height-width(270px, 240px);
 		margin:auto;
 	}
 	img.image_frame{
 		position: relative;
-		top: -289px;
-		@include height-width(270px, 240px);	
+		top: -288px;
+		@include height-width(271px, 240px);	
 		margin: auto;
 	}
 	div.name-date{

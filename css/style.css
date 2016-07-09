@@ -130,7 +130,7 @@ div#left_trapeze {
   border-left: 0px solid transparent;
   border-right: 70px solid transparent;
   height: 0;
-  width: 45%; }
+  width: 47%; }
 
 div#right_trapeze {
   position: absolute;
@@ -140,11 +140,8 @@ div#right_trapeze {
   border-left: 70px solid transparent;
   border-right: 0px solid transparent;
   height: 0;
-  width: 45%; }
+  width: 47%; }
 
-@media (min-width: 1000px) {
-  div#left_trapeze, div#right_trapeze {
-    width: 47%; } }
 /*----------------------------*/
 div.container_about {
   margin: auto;
@@ -203,7 +200,7 @@ section.article_problem {
 div.article_about_problem {
   text-align: center;
   margin: auto;
-  padding: 40px 0; }
+  padding: 80px 0 40px 0; }
   div.article_about_problem h1 {
     line-height: 40px; }
   div.article_about_problem p {
@@ -349,10 +346,6 @@ div.container_carousel {
   width: 100%;
   width: 100%;
   text-align: center; }
-  div.container_carousel div.img_photo {
-    height: 270px;
-    width: 240px;
-    margin: auto; }
   div.container_carousel img.img_photo {
     height: 270px;
     width: 240px;
@@ -360,7 +353,7 @@ div.container_carousel {
   div.container_carousel img.image_frame {
     position: relative;
     top: -288px;
-    height: 270px;
+    height: 271px;
     width: 240px;
     margin: auto; }
   div.container_carousel div.name-date {
