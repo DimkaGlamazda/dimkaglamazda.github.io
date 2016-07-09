@@ -256,7 +256,7 @@ section.article_problem{
 div.article_about_problem{
 	text-align: center;
 	margin:auto;
-	padding:40px 0;
+	padding: 80px 0 40px 0;
 
 	h1{
 		line-height: 40px;
@@ -441,7 +441,7 @@ div.container_carousel{
 	}
 	img.image_frame{
 		position: relative;
-		top: -288px;
+		top: -289px;
 		@include height-width(270px, 240px);	
 		margin: auto;
 	}
