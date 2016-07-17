@@ -6,7 +6,11 @@
 
 @font-face {
 	font-family: Roboto-Black; 
-	src: url('../fonts/Roboto-Light.ttf');
+	src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+	font-family: brandon-reg; 
+	src: url(../fonts/Brandon_reg.otf);
 }
 
 $background-white: #fff;
@@ -41,7 +45,6 @@ $font-family-button: helvetica;
 *{
 	margin: 0;
 	padding: 0;
-	transition: all .2s;
 	font-family:$fonts-family;
 }
 h1{
@@ -141,6 +144,7 @@ section.header_page{
 }
 @media (min-width: 1000px){
 		div.naw_bar{
+		transition: all .2s;
 		@include height-width(auto, 1000px);
 		ul{
 			padding: 10px 5px 0 150px;

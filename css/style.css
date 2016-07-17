@@ -10,12 +10,14 @@
   width: device-width; }
 @font-face {
   font-family: Roboto-Black;
-  src: url("../fonts/Roboto-Light.ttf"); }
+  src: url(../fonts/Roboto-Light.ttf); }
+@font-face {
+  font-family: brandon-reg;
+  src: url(../fonts/Brandon_reg.otf); }
 /*----------------------------*/
 * {
   margin: 0;
   padding: 0;
-  transition: all .2s;
   font-family: helvetica; }
 
 h1 {
@@ -108,6 +110,7 @@ section.header_page {
         padding: 10px 10px; } }
 @media (min-width: 1000px) {
   div.naw_bar {
+    transition: all .2s;
     height: auto;
     width: 1000px; }
     div.naw_bar ul {
